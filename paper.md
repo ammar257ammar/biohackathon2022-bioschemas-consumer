@@ -67,7 +67,7 @@ The aim of Project 23 is to explore the implementation of the Schema.org proposa
 
 ## The construction of IDPcentral Knowledge Graph as a use case
 
-The example pipeline that we developed in this work is based on a [previous work](https://github.com/BioComputingUP/IDP-KG) developed during the ELIXIR sponsored BioHackathon-Europe 2020 and reported in BioHackrXiv \cite{Gray_2021}.
+The example pipeline that we developed in this work is based on a [previous work](https://github.com/BioComputingUP/IDP-KG) developed during the ELIXIR sponsored BioHackathon-Europe 2020 and reported in BioHackrXiv [@Gray_2021].
 In that work, several notebooks were developed to generate the IDPcentral Knowledge Graph based on data harvested from three sources: 
 [DisProt](https://disprot.org/), [MobiDB](https://mobidb.org/), and [ProteinEnsemble (PED)](https://proteinensemble.org/).
 
