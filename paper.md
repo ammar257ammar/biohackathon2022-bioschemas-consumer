@@ -11,18 +11,18 @@ authors:
   - name: Ammar Ammar
     orcid: 0000-0002-8021-9162
     affiliation: 1
-  - name: Alasdair Gray
-    orcid: 0000-0003-1460-8327
-    affiliation: 2
   - name: Ivan Mičetić
     orcid: 0000-0003-1691-8425
+    affiliation: 2
+  - name: Alasdair Gray
+    orcid: 0000-0003-1460-8327
     affiliation: 3
 affiliations:
   - name: Department of Bioinformatics (BiGCaT), Maastricht University, The Netherlands
     index: 1
-  - name: Heriot-Watt University, Edinburgh, UK
-    index: 2
   - name: BioComputing UP Lab, University of Padua, Italy
+    index: 2
+  - name: Heriot-Watt University, Edinburgh, UK
     index: 3
 
 date: 11 November 2022
