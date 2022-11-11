@@ -67,7 +67,7 @@ The aim of Project 23 is to explore the implementation of the Schema.org proposa
 
 ## The construction of IDPcentral Knowledge Graph as a use case
 
-The example pipeline that we developed in this work is based on a [previous work](https://github.com/BioComputingUP/IDP-KG) developed during the ELIXIR sponsored BioHackathon-Europe 2020 and reported in [BioHackrXiv v3jct](https://doi.org/10.37044/osf.io/v3jct).
+The example pipeline that we developed in this work is based on a [previous work](https://github.com/BioComputingUP/IDP-KG) developed during the ELIXIR sponsored BioHackathon-Europe 2020 and reported in BioHackrXiv \cite{Gray_2021}.
 In that work, several notebooks were developed to generate the IDPcentral Knowledge Graph based on data harvested from three sources: 
 [DisProt](https://disprot.org/), [MobiDB](https://mobidb.org/), and [ProteinEnsemble (PED)](https://proteinensemble.org/).
 
@@ -131,7 +131,8 @@ Below is an example of the structure of this RDF configuration:
     httpList:fileName "DP00186.jsonld" ;
 ```
 
-In the ttl snippet above indicates three main pieces of information:
+The ttl snippet above indicates three main pieces of information:
+
 1. Create a httpList:Configuration entity.
 1. Create a httpList:Reference entity for each URL needs to be downloaded, each entity having two predicates at least:
 	- httpList:fileUri where the object is a string literal of the URL of the file to be downloaded.
