@@ -142,18 +142,20 @@ Fortunately, this configuration can be constructed from a list of URLs using a S
 
 ## The pipeline explained
 
-![An overview of the developed pipeline using LinkedPipes \label{fig-pipeline}](./figures/the-pipeline.png)
+![An overview of the developed pipeline using LinkedPipes \label{fig-pipeline}](./figures/extract.png)
 
 
 Figure \ref{fig-pipeline} shows the built pipeline in this work which downloads JSON-LD files scraped from three sources and stored on GitHub, converts them to RDF, map the RDF to a unified model and store the resulting graph to a ttl file. The pipeline also calculates some statistics from the converted RDF and stores it in a CSV file next to the output ttl file. The following sections describe in detail the different stages of the KG construction pipeline.
 
 ### The extract stage
 
-![The Extract part of the developed pipeline \label{fig-transform}](./figures/the-pipeline.png)
+![The Extract part of the developed pipeline \label{fig-transform}](./figures/transform.png)
 
 In this stage of the pipeline, the list of URLs to be downloaded is provided either through a remote file that is downloaded with an HTTP request or from a local text file as shown in Figure \ref{fig-extract}. The node of type "HTTP get" contains a URL to the file containing the list of URLs to download, in this case, names "url.txt". On the other hand, another way of obtaining that file is from the local file system through the node of type "Files from local". The "Files from local" node appears to be greyed out in the figure where it is disabled since we chose to download the file from a GitHub repository instead of loading it from the file system. Hence, allowing the pipeline to be portable and not dependent on the machine running the pipeline. In order to use the "url.txt" file, it needs to be represented in RDF, since this is the only way that LinkedPipes represents data for its configuration and pipelines. Thus, the next node of type "Tabular" is responsible for converting the "url.txt "file to RDF by mapping it, as a delimiter-separated file, to a set of triples. Each URL is represented as a triple where the subject is automatically generated from a user-defined prefix and the number of rows, and the object is the actual URL as a string literal as shown in the following example:
 ```
-<https://example.com/1> <file://url.txt#column_1> "https://github.com/BioComputingUP/IDP-KG/raw/main/scraped-data/2022-10-27_subset/jsonld/disprot/DP00176.jsonld" .
+<https://example.com/1> 
+	<file://url.txt#column_1> 
+		"https://github.com/BioComputingUP/IDP-KG/raw/main/scraped-data/2022-10-27_subset/jsonld/disprot/DP00176.jsonld" .
 ```
 As described in the runtime configuration section, in order to fetch files from a list of URLs using the node type "HTTP get list", those URLs should be presented as a runtime configuration to that node. Hence, the node of type "SPARQL construct" that is labeled "SPARQL construct create config" is used to create the runtime configuration. A SPARQL construct query is used to map the simple triples from the previous node "Tabular" to the required configuration vocabulary as demonstrated below:
 
