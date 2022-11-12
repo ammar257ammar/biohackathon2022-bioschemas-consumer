@@ -142,14 +142,14 @@ Fortunately, this configuration can be constructed from a list of URLs using a S
 
 ## The pipeline explained
 
-![An overview of the developed pipeline using LinkedPipes \label{fig-pipeline}](./figures/extract.png)
+![An overview of the developed pipeline using LinkedPipes \label{fig-pipeline}](./figures/the-pipeline.png)
 
 
 Figure \ref{fig-pipeline} shows the built pipeline in this work which downloads JSON-LD files scraped from three sources and stored on GitHub, converts them to RDF, map the RDF to a unified model and store the resulting graph to a ttl file. The pipeline also calculates some statistics from the converted RDF and stores it in a CSV file next to the output ttl file. The following sections describe in detail the different stages of the KG construction pipeline.
 
 ### The extract stage
 
-![The Extract part of the developed pipeline \label{fig-transform}](./figures/transform.png)
+![The Extract part of the developed pipeline \label{fig-extract}](./figures/extract.png)
 
 In this stage of the pipeline, the list of URLs to be downloaded is provided either through a remote file that is downloaded with an HTTP request or from a local text file as shown in Figure \ref{fig-extract}. The node of type "HTTP get" contains a URL to the file containing the list of URLs to download, in this case, names "url.txt". On the other hand, another way of obtaining that file is from the local file system through the node of type "Files from local". The "Files from local" node appears to be greyed out in the figure where it is disabled since we chose to download the file from a GitHub repository instead of loading it from the file system. Hence, allowing the pipeline to be portable and not dependent on the machine running the pipeline. In order to use the "url.txt" file, it needs to be represented in RDF, since this is the only way that LinkedPipes represents data for its configuration and pipelines. Thus, the next node of type "Tabular" is responsible for converting the "url.txt "file to RDF by mapping it, as a delimiter-separated file, to a set of triples. Each URL is represented as a triple where the subject is automatically generated from a user-defined prefix and the number of rows, and the object is the actual URL as a string literal as shown in the following example:
 ```
@@ -180,7 +180,9 @@ Now, using the constructed config, the node "HTTP get list" downloads the JSON-L
 
 ### The transform stage
 
-In this stage, the download JSON-LD files go through a series of transformations in order to get the final RDF graph. First, the node of type "JSON to JSON-LD" is used to add a specified JSON-LD context (in this case: https://schema.org/) and additional provenance data to the input JSON files. The input JSON-LD files contain multiple entities in each file, and thus, this step is needed to get a proper JSON-LD for the next step in the pipeline. In case the input JSON-LD file contains a single entity, this step is not needed. Next, the node of type "JSON-LD to RDF" is applied to convert the JSON-LD to turtle RDF on which SPARQL queries can be executed. Next, eight SPARQL construct queries are applied on the RDF of the input JSON-LD files using nodes of type "SPARQL construct" to map them to a unified Bioschemas-based model. Below, we show an example of a construct query to create protein entities having IRIs that follow the IDPC accession URL pattern (https://idpcentral.org/id/{UNIPROT_ID}). The query is an adapted version of the original query in the notebook that this pipeline is aiming to reproduce.
+![The Transform part of the developed pipeline \label{fig-transform}](./figures/transform.png)
+
+In this stage, the download JSON-LD files go through a series of transformations in order to get the final RDF graph as show in Figure \ref{fig-transform}. First, the node of type "JSON to JSON-LD" is used to add a specified JSON-LD context (in this case: https://schema.org/) and additional provenance data to the input JSON files. The input JSON-LD files contain multiple entities in each file, and thus, this step is needed to get a proper JSON-LD for the next step in the pipeline. In case the input JSON-LD file contains a single entity, this step is not needed. Next, the node of type "JSON-LD to RDF" is applied to convert the JSON-LD to turtle RDF on which SPARQL queries can be executed. Next, eight SPARQL construct queries are applied on the RDF of the input JSON-LD files using nodes of type "SPARQL construct" to map them to a unified Bioschemas-based model. Below, we show an example of a construct query to create protein entities having IRIs that follow the IDPC accession URL pattern (https://idpcentral.org/id/{UNIPROT_ID}). The query is an adapted version of the original query in the notebook that this pipeline is aiming to reproduce.
 
 ```
 PREFIX pav: <http://purl.org/pav/>
