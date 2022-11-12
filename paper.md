@@ -56,7 +56,7 @@ pasting above link (or yours) in
 # Introduction
 
 As part of the one-week Biohackathion Europe 2022 in Paris France, a group was formed to work on project 23 titled: Publishing and Consuming Schema.org DataFeeds.
-Bioschemas [@8cbc7003c0f74e778be9bbd9e9354a15] is a lightweight vocabulary that aims at making web pages contents machine-readable so that software agents can consume that content and understand it in an actionable way. Due to the time needed to process each page, extracting markup by visiting each page of a site is not practical for huge sites. This approach imposes processing requirements on the publisher and the consumer. 
+Schema.org and Bioschemas which is built on top of it [@8cbc7003c0f74e778be9bbd9e9354a15] are lightweight vocabularies that aim at making web pages contents machine-readable so that software agents can consume that content and understand it in an actionable way. Due to the time needed to process each page, extracting markup by visiting each page of a site is not practical for huge sites. This approach imposes processing requirements on the publisher and the consumer. 
 The Schema.org community proposed a method for exchanging markup from various pages as a DataFeed published at a recognized address in February 2022. The feed could consist of a single file containing the entire information or it could be divided into different files based on different aspects of the dataset, such as proteins and molecular entities, as in the case of ChEMBL. This would ease publisher and customer processing requirements and accelerate data collection.
 The aim of Project 23 is to explore the implementation of the Schema.org proposal from both a producer and consumer perspective, for a variety of resources implementing different Bioschemas profiles. This report focuses on the consumer part of the project proposal where we explored an ETL pipeline (Extract-Transform-Load) approach and implemented a consumption pipeline that enables data feeds to be ingested into knowledge graphs (KG).
 
@@ -79,7 +79,7 @@ The pipeline is supposed to load scraped JSON-LD from the three aforementioned s
 
 We explored a suite for linked data called [LinkedPipes](https://etl.linkedpipes.com/) [@Kl_mek_2017], specifically, the ETL (Extract-Transform-Load) part of it.
 
-LinkedPipes ETL is an RDF-based, lightweight ETL tool. It has a modular design providing a large collection of components to be used in building ETL pipelines.
+LinkedPipes ETL is an open source RDF-based, lightweight ETL tool. It has a modular design providing a large collection of components to be used in building ETL pipelines.
 Everything in LinkedPipes is in RDF. The ETL pipelines, component setups, and messages indicating pipeline progress are included in this. 
 
 We found LinkedPipes to be feature-rich and suitable for our aim. The capabilities of LinkedPipes include:
@@ -142,16 +142,17 @@ Fortunately, this configuration can be constructed from a list of URLs using a S
 
 ## The pipeline explained
 
-![An overview of the developed pipeline using LinkedPipes \label{fig-pipeline}](./figures/the-pipeline.png)
-
-
 Figure \ref{fig-pipeline} shows the built pipeline in this work which downloads JSON-LD files scraped from three sources and stored on GitHub, converts them to RDF, map the RDF to a unified model and store the resulting graph to a ttl file. The pipeline also calculates some statistics from the converted RDF and stores it in a CSV file next to the output ttl file. The following sections describe in detail the different stages of the KG construction pipeline.
+
+![An overview of the developed pipeline using LinkedPipes \label{fig-pipeline}](./figures/the-pipeline.png)
 
 ### The extract stage
 
+In this stage of the pipeline, the list of URLs to be downloaded is provided either through a remote file that is downloaded with an HTTP request or from a local text file as shown in Figure \ref{fig-extract}. The node of type "HTTP get" contains a URL to the file containing the list of URLs to download, in this case, names "url.txt". On the other hand, another way of obtaining that file is from the local file system through the node of type "Files from local". The "Files from local" node appears to be greyed out in the figure where it is disabled since we chose to download the file from a GitHub repository instead of loading it from the file system. Hence, allowing the pipeline to be portable and not dependent on the machine running the pipeline. 
+
 ![The Extract part of the developed pipeline \label{fig-extract}](./figures/extract.png)
 
-In this stage of the pipeline, the list of URLs to be downloaded is provided either through a remote file that is downloaded with an HTTP request or from a local text file as shown in Figure \ref{fig-extract}. The node of type "HTTP get" contains a URL to the file containing the list of URLs to download, in this case, names "url.txt". On the other hand, another way of obtaining that file is from the local file system through the node of type "Files from local". The "Files from local" node appears to be greyed out in the figure where it is disabled since we chose to download the file from a GitHub repository instead of loading it from the file system. Hence, allowing the pipeline to be portable and not dependent on the machine running the pipeline. In order to use the "url.txt" file, it needs to be represented in RDF, since this is the only way that LinkedPipes represents data for its configuration and pipelines. Thus, the next node of type "Tabular" is responsible for converting the "url.txt "file to RDF by mapping it, as a delimiter-separated file, to a set of triples. Each URL is represented as a triple where the subject is automatically generated from a user-defined prefix and the number of rows, and the object is the actual URL as a string literal as shown in the following example:
+In order to use the "url.txt" file, it needs to be represented in RDF, since this is the only way that LinkedPipes represents data for its configuration and pipelines. Thus, the next node of type "Tabular" is responsible for converting the "url.txt "file to RDF by mapping it, as a delimiter-separated file, to a set of triples. Each URL is represented as a triple where the subject is automatically generated from a user-defined prefix and the number of rows, and the object is the actual URL as a string literal as shown in the following example:
 ```
 <https://example.com/1> 
 	<file://url.txt#column_1> 
@@ -182,7 +183,7 @@ Now, using the constructed config, the node "HTTP get list" downloads the JSON-L
 
 ![The Transform part of the developed pipeline \label{fig-transform}](./figures/transform.png)
 
-In this stage, the download JSON-LD files go through a series of transformations in order to get the final RDF graph as show in Figure \ref{fig-transform}. First, the node of type "JSON to JSON-LD" is used to add a specified JSON-LD context (in this case: https://schema.org/) and additional provenance data to the input JSON files. The input JSON-LD files contain multiple entities in each file, and thus, this step is needed to get a proper JSON-LD for the next step in the pipeline. In case the input JSON-LD file contains a single entity, this step is not needed. Next, the node of type "JSON-LD to RDF" is applied to convert the JSON-LD to turtle RDF on which SPARQL queries can be executed. Next, eight SPARQL construct queries are applied on the RDF of the input JSON-LD files using nodes of type "SPARQL construct" to map them to a unified Bioschemas-based model. Below, we show an example of a construct query to create protein entities having IRIs that follow the IDPC accession URL pattern (ht<span>tps://</span>idpcentral.org/id/{UNIPROT_ID}). The query is an adapted version of the original query in the notebook that this pipeline is aiming to reproduce.
+In this stage, the download JSON-LD files go through a series of transformations in order to get the final RDF graph as show in Figure \ref{fig-transform}. First, the node of type "JSON to JSON-LD" is used to add a specified JSON-LD context (in this case: https://schema.org/) and additional provenance data to the input JSON files. The input JSON-LD files contain multiple entities in each file, and thus, this step is needed to get a proper JSON-LD for the next step in the pipeline. In case the input JSON-LD file contains a single entity, this step is not needed. Next, the node of type "JSON-LD to RDF" is applied to convert the JSON-LD to turtle RDF on which SPARQL queries can be executed. Next, eight SPARQL construct queries are applied on the RDF of the input JSON-LD files using nodes of type "SPARQL construct" to map them to a unified Bioschemas-based model. Below, we show an example of a construct query to create protein entities having IRIs that follow the IDPC accession URL pattern (ht<span>tps://</span>idpcentral.org/id/{UNIPROT_ID}). The query is an adapted version of the original one in the ETL notebook that this pipeline is aiming to reproduce.
 
 ```
 PREFIX pav: <http://purl.org/pav/>
@@ -290,10 +291,16 @@ SELECT ?desc ?count WHERE {
 
 ### The load stage
 
+In this stage as showin in Figure \ref{fig-load}, the resulting RDF graph is converted to a file and stored in the local file system to a path specified by the configuration of the node of type "Files to local". Similarly, the summary statistics is stored to a CSV file in the local file system. The pipeline can be adapted to utilize the output data in a more practical way by loading it into a live SPARQL endpoint or sending the file over FTP to another location.
 
+![The Transform part of the developed pipeline \label{fig-load}](./figures/load.png)
 
 ## LinkedPipes pipeline export, testing and FAIR compliance
 
+LinkedPipes user interface allows downloading individual pipelines in JSON-LD format or exporting all the pipelines as Trig files wrapped in a zip archive. Therefore, the pipeline itself is machine-readable since it is represented in JSON-LD where components, connections and configurations are annotated with terms from the LinkedPipes ontology and other ontologies like SKOS [@8e3f54f09cd0481b9d826939a5d596a9]. Figure \ref{fig-viz} shows a simplified visualization of the pipeline JSON-LD structure. Adopting JSON-LD as a medium to import/export pipelines in LinkedPipes makes them natively machine-readable and compliant with several FAIR subprinciples under the interoperability (I) and the reusability (R) main principles. The pipeline produced in this work is made available on [GitHub](https://github.com/ammar257ammar/biohackathon2022-bioschemas-consumer) under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license along with the BioHackathon report and it is also archived in Zenodo giving it a DOI, a globally-unique identifier. Therefore, those steps add to the findability, accessibility and reusability of the work.
 The pipeline can be tested using a local running instance of LinkedPipes or using the online [demo instance](https://demo.etl.linkedpipes.com/). By using the upload function under the "pipelines" tab, users can load the pipeline either as a file or as a URL, and then, it can be executed to get the output RDF. All the files needed for the pipeline to execute (the input URL list and the JSON-LD files) are hosted online in GitHub repositories. Therefore, the pipeline is portable and reproducible on any machine.
 
+![Simplified visualization of the LinkedPipes pipeline JSON-LD markup. Three types of entities were kept in the graph for simiplicity, namely, Pipeline, ExecutionProfile and Component. The pipeline itself is stored and exported as a JSON-LD file where components, connections and configurations are annotated with terms from the LinkedPipes ontology and other ontologies like SKOS. The figure is generated using [classyschema.org](https://classyschema.org/Visualisation) \label{fig-viz}](./figures/pipeline_visualization.png)
+
+## Conclusion
 ## References
