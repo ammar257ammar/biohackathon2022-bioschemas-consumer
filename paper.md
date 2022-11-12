@@ -155,7 +155,7 @@ In this stage of the pipeline, the list of URLs to be downloaded is provided eit
 ```
 <https://example.com/1> 
 	<file://url.txt#column_1> 
-		"https://github.com/BioComputingUP/IDP-KG/raw/main/scraped-data/2022-10-27_subset/jsonld/disprot/DP00176.jsonld" .
+		"https://github.com/BioComputingUP/IDP-KG/2022-10-27_subset/jsonld/disprot/DP00176.jsonld" .
 ```
 As described in the runtime configuration section, in order to fetch files from a list of URLs using the node type "HTTP get list", those URLs should be presented as a runtime configuration to that node. Hence, the node of type "SPARQL construct" that is labeled "SPARQL construct create config" is used to create the runtime configuration. A SPARQL construct query is used to map the simple triples from the previous node "Tabular" to the required configuration vocabulary as demonstrated below:
 
@@ -240,8 +240,14 @@ WHERE {
         OPTIONAL {?s schema:isLocatedInSubcellularLocation ?cellularLocation}
         OPTIONAL {?s schema:isPartOfBioChemEntity ?parentEntity}
         ?s schema:sameAs ?sameAs.
-      FILTER REGEX(STR(?sameAs), "^(https://www|http://purl).uniprot.org/uniprot/")
-  BIND(IRI(REPLACE(STR(?sameAs),'^(https://www|http://purl).uniprot.org/uniprot/', 'https://idpcentral.org/id/')) AS ?idpcAccesssion )
+	FILTER REGEX(
+      		STR(?sameAs), \
+      			"^(https://www|http://purl).uniprot.org/uniprot/")
+	BIND(IRI(
+		REPLACE(
+			STR(?sameAs),
+				'^(https://www|http://purl).uniprot.org/uniprot/', 
+				'https://idpcentral.org/id/')) AS ?idpcAccesssion )
 }
 ```
 Moreover, the transformation part of the pipeline also includes a sanity check applied through a node of type "SPARQL ask" where an ASK SPARQL query is executed to make sure that schema:Protein entities exist in the source RDF. In case of the absence of those entities, the ASK query will fail and the pipeline execution will halt with the "SPARQL ask" node highlighted in red. That can help the user identify problems in the input RDF. For example, having the wrong input files, empty files or files with missing types of data. Finally, another node of type "SPARQL construct" is used to create a summary count of three types of entities, namely, schema:Protein, schema:SequenceAnnotation and schema:SequenceRange as shown in the query below.
