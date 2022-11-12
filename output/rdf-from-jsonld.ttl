@@ -3,158 +3,119 @@
   <https://schema.org/rangeStart> 2;
   <https://schema.org/rangeEnd> 238 .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00125> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "SAXS";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00125" .
-
-_:t-1668091856247-n11 a <https://schema.org/PropertyValue>;
+_:t-1668259897522-n11 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00125> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl:00184> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "Initial pool";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00184" .
-
-_:t-1668091856247-n14 a <https://schema.org/PropertyValue>;
+_:t-1668259897522-n14 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00184> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl:00208> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "CRYSOL";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00208" .
-
-_:t-1668091856247-n17 a <https://schema.org/PropertyValue>;
+_:t-1668259897522-n17 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00208> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl:00212> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "Ensemble optimization";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00212" .
-
-_:t-1668091856247-n20 a <https://schema.org/PropertyValue>;
+_:t-1668259897522-n20 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00212> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl:00213> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "EOM";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00213" .
-
-_:t-1668091856247-n23 a <https://schema.org/PropertyValue>;
+_:t-1668259897522-n23 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00213> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl:00214> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "GAJOE";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00214" .
-
-_:t-1668091856247-n26 a <https://schema.org/PropertyValue>;
+_:t-1668259897522-n26 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00214> .
 
 <https://proteinensemble.org/PED00010#P42212-A-1_sequence-annotation> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://proteinensemble.org/PED00010#P42212-A-1_sequence-location.2_238>;
-  <https://schema.org/additionalProperty> _:t-1668091856247-n11, _:t-1668091856247-n14,
-    _:t-1668091856247-n17, _:t-1668091856247-n20, _:t-1668091856247-n23, _:t-1668091856247-n26 .
+  <https://schema.org/additionalProperty> _:t-1668259897522-n11, _:t-1668259897522-n14,
+    _:t-1668259897522-n17, _:t-1668259897522-n20, _:t-1668259897522-n23, _:t-1668259897522-n26 .
 
 <https://proteinensemble.org/PED00010#P09525-1-A-3_sequence-location.1_319> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 319 .
 
-_:t-1668091856247-n35 a <https://schema.org/PropertyValue>;
+_:t-1668259897522-n35 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00125> .
 
-_:t-1668091856247-n38 a <https://schema.org/PropertyValue>;
+_:t-1668259897522-n38 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00184> .
 
-_:t-1668091856247-n41 a <https://schema.org/PropertyValue>;
+_:t-1668259897522-n41 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00208> .
 
-_:t-1668091856247-n44 a <https://schema.org/PropertyValue>;
+_:t-1668259897522-n44 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00212> .
 
-_:t-1668091856247-n47 a <https://schema.org/PropertyValue>;
+_:t-1668259897522-n47 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00213> .
 
-_:t-1668091856247-n50 a <https://schema.org/PropertyValue>;
+_:t-1668259897522-n50 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00214> .
 
 <https://proteinensemble.org/PED00010#P09525-1-A-3_sequence-annotation> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://proteinensemble.org/PED00010#P09525-1-A-3_sequence-location.1_319>;
-  <https://schema.org/additionalProperty> _:t-1668091856247-n35, _:t-1668091856247-n38,
-    _:t-1668091856247-n41, _:t-1668091856247-n44, _:t-1668091856247-n47, _:t-1668091856247-n50 .
+  <https://schema.org/additionalProperty> _:t-1668259897522-n35, _:t-1668259897522-n38,
+    _:t-1668259897522-n41, _:t-1668259897522-n44, _:t-1668259897522-n47, _:t-1668259897522-n50 .
 
 <https://proteinensemble.org/PED00010#P42212-A-5_sequence-location.2_238> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 2;
   <https://schema.org/rangeEnd> 238 .
 
-_:t-1668091856247-n59 a <https://schema.org/PropertyValue>;
+_:t-1668259897522-n59 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00125> .
 
-_:t-1668091856247-n62 a <https://schema.org/PropertyValue>;
+_:t-1668259897522-n62 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00184> .
 
-_:t-1668091856247-n65 a <https://schema.org/PropertyValue>;
+_:t-1668259897522-n65 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00208> .
 
-_:t-1668091856247-n68 a <https://schema.org/PropertyValue>;
+_:t-1668259897522-n68 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00212> .
 
-_:t-1668091856247-n71 a <https://schema.org/PropertyValue>;
+_:t-1668259897522-n71 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00213> .
 
-_:t-1668091856247-n74 a <https://schema.org/PropertyValue>;
+_:t-1668259897522-n74 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00214> .
 
 <https://proteinensemble.org/PED00010#P42212-A-5_sequence-annotation> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://proteinensemble.org/PED00010#P42212-A-5_sequence-location.2_238>;
-  <https://schema.org/additionalProperty> _:t-1668091856247-n59, _:t-1668091856247-n62,
-    _:t-1668091856247-n65, _:t-1668091856247-n68, _:t-1668091856247-n71, _:t-1668091856247-n74 .
-
-_:t-1668091856265-n4 a <https://schema.org/DefinedTerm>;
-  <https://schema.org/inDefinedTermSet> _:t-1668091856265-n5;
-  <https://schema.org/termCode> "12107" .
+  <https://schema.org/additionalProperty> _:t-1668259897522-n59, _:t-1668259897522-n62,
+    _:t-1668259897522-n65, _:t-1668259897522-n68, _:t-1668259897522-n71, _:t-1668259897522-n74 .
 
 <https://disprot.org/DP01129#sequence-location.1_2293> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 2293 .
 
-_:t-1668091856265-n10 a <https://schema.org/PropertyValue>;
+_:t-1668259897535-n10 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Protein disorder content";
   <https://schema.org/value> 2.8347143480157E-2;
   <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> .
 
 <https://disprot.org/DP01129#disorder-content> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01129#sequence-location.1_2293>;
-  <https://schema.org/additionalProperty> _:t-1668091856265-n10 .
+  <https://schema.org/additionalProperty> _:t-1668259897535-n10 .
 
 <https://disprot.org/DP01129#sequence-location.1_19> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 19 .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "disorder", "Disorder";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00076" .
-
-_:t-1668091856265-n16 a <https://schema.org/PropertyValue>;
+_:t-1668259897535-n16 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -162,180 +123,166 @@ _:t-1668091856265-n16 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP01129r003> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01129#sequence-location.1_19>;
-  <https://schema.org/additionalProperty> _:t-1668091856265-n16;
+  <https://schema.org/additionalProperty> _:t-1668259897535-n16;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25331866> .
 
 <https://disprot.org/DP01129#sequence-location.27_41> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 27;
   <https://schema.org/rangeEnd> 41 .
 
-_:t-1668091856265-n24 a <https://schema.org/PropertyValue>;
+_:t-1668259897535-n24 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP01129r004> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01129#sequence-location.27_41>;
-  <https://schema.org/additionalProperty> _:t-1668091856265-n24;
+  <https://schema.org/additionalProperty> _:t-1668259897535-n24;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25331866> .
 
 <https://disprot.org/DP01129#sequence-location.45_59> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 45;
   <https://schema.org/rangeEnd> 59 .
 
-_:t-1668091856265-n32 a <https://schema.org/PropertyValue>;
+_:t-1668259897535-n32 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP01129r005> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01129#sequence-location.45_59>;
-  <https://schema.org/additionalProperty> _:t-1668091856265-n32;
+  <https://schema.org/additionalProperty> _:t-1668259897535-n32;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25331866> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00501> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "entropic chain";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00501" .
-
-_:t-1668091856265-n40 a <https://schema.org/PropertyValue>;
+_:t-1668259897535-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00501> .
 
 <https://disprot.org/DP01129r006> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01129#sequence-location.1_19>;
-  <https://schema.org/additionalProperty> _:t-1668091856265-n40;
+  <https://schema.org/additionalProperty> _:t-1668259897535-n40;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25331866> .
 
 <https://disprot.org/DP01129#sequence-location.37_67> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 37;
   <https://schema.org/rangeEnd> 67 .
 
-_:t-1668091856265-n48 a <https://schema.org/PropertyValue>;
+_:t-1668259897535-n48 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP01129r007> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01129#sequence-location.37_67>;
-  <https://schema.org/additionalProperty> _:t-1668091856265-n48;
+  <https://schema.org/additionalProperty> _:t-1668259897535-n48;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25331866> .
 
 <https://disprot.org/DP01129#sequence-location.1_15> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 15 .
 
-_:t-1668091856265-n56 a <https://schema.org/PropertyValue>;
+_:t-1668259897535-n56 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP01129r008> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01129#sequence-location.1_15>;
-  <https://schema.org/additionalProperty> _:t-1668091856265-n56;
+  <https://schema.org/additionalProperty> _:t-1668259897535-n56;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25331866> .
 
 <https://disprot.org/DP01129#sequence-location.22_43> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 22;
   <https://schema.org/rangeEnd> 43 .
 
-_:t-1668091856265-n64 a <https://schema.org/PropertyValue>;
+_:t-1668259897535-n64 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP01129r009> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01129#sequence-location.22_43>;
-  <https://schema.org/additionalProperty> _:t-1668091856265-n64;
+  <https://schema.org/additionalProperty> _:t-1668259897535-n64;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25331866> .
 
 <https://disprot.org/DP01129#sequence-location.46_67> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 46;
   <https://schema.org/rangeEnd> 67 .
 
-_:t-1668091856265-n72 a <https://schema.org/PropertyValue>;
+_:t-1668259897535-n72 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP01129r010> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01129#sequence-location.46_67>;
-  <https://schema.org/additionalProperty> _:t-1668091856265-n72;
+  <https://schema.org/additionalProperty> _:t-1668259897535-n72;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25331866> .
 
 <https://disprot.org/DP01129#sequence-location.29_60> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 29;
   <https://schema.org/rangeEnd> 60 .
 
-_:t-1668091856265-n80 a <https://schema.org/PropertyValue>;
+_:t-1668259897535-n80 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP01129r011> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01129#sequence-location.29_60>;
-  <https://schema.org/additionalProperty> _:t-1668091856265-n80;
+  <https://schema.org/additionalProperty> _:t-1668259897535-n80;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25331866> .
 
 <https://disprot.org/DP01129#sequence-location.29_41> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 29;
   <https://schema.org/rangeEnd> 41 .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0005515> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "protein binding";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "GO:0005515" .
-
-_:t-1668091856265-n88 a <https://schema.org/PropertyValue>;
+_:t-1668259897535-n88 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0005515> .
 
 <https://disprot.org/DP01129r012> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01129#sequence-location.29_41>;
-  <https://schema.org/additionalProperty> _:t-1668091856265-n88;
+  <https://schema.org/additionalProperty> _:t-1668259897535-n88;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25331866> .
 
 <https://disprot.org/DP01129#sequence-location.47_53> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 47;
   <https://schema.org/rangeEnd> 53 .
 
-_:t-1668091856265-n96 a <https://schema.org/PropertyValue>;
+_:t-1668259897535-n96 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0005515> .
 
 <https://disprot.org/DP01129r013> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01129#sequence-location.47_53>;
-  <https://schema.org/additionalProperty> _:t-1668091856265-n96;
+  <https://schema.org/additionalProperty> _:t-1668259897535-n96;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25331866> .
 
 <https://disprot.org/DP01129#sequence-location.56_67> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 56;
   <https://schema.org/rangeEnd> 67 .
 
-_:t-1668091856265-n104 a <https://schema.org/PropertyValue>;
+_:t-1668259897535-n104 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0005515> .
 
 <https://disprot.org/DP01129r014> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01129#sequence-location.56_67>;
-  <https://schema.org/additionalProperty> _:t-1668091856265-n104;
+  <https://schema.org/additionalProperty> _:t-1668259897535-n104;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25331866> .
-
-_:t-1668091856282-n4 a <https://schema.org/DefinedTerm>;
-  <https://schema.org/inDefinedTermSet> _:t-1668091856282-n5;
-  <https://schema.org/termCode> "9913" .
 
 <https://disprot.org/DP00246#sequence-location.1_453> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 453 .
 
-_:t-1668091856282-n10 a <https://schema.org/PropertyValue>;
+_:t-1668259897550-n10 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Protein disorder content";
   <https://schema.org/value> 1.1037527593818984E-1;
   <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> .
 
 <https://disprot.org/DP00246#disorder-content> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00246#sequence-location.1_453>;
-  <https://schema.org/additionalProperty> _:t-1668091856282-n10 .
+  <https://schema.org/additionalProperty> _:t-1668259897550-n10 .
 
 <https://disprot.org/DP00246#sequence-location.1_50> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 50 .
 
-_:t-1668091856282-n16 a <https://schema.org/PropertyValue>;
+_:t-1668259897550-n16 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -343,54 +290,45 @@ _:t-1668091856282-n16 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP00246r001> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00246#sequence-location.1_50>;
-  <https://schema.org/additionalProperty> _:t-1668091856282-n16;
+  <https://schema.org/additionalProperty> _:t-1668259897550-n16;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:11785981> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0140313> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "molecular sequestering activity";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "GO:0140313" .
-
-_:t-1668091856282-n24 a <https://schema.org/PropertyValue>;
+_:t-1668259897550-n24 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0140313> .
 
 <https://disprot.org/DP00246r002> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00246#sequence-location.1_50>;
-  <https://schema.org/additionalProperty> _:t-1668091856282-n24;
+  <https://schema.org/additionalProperty> _:t-1668259897550-n24;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:11785981> .
 
-_:t-1668091856282-n32 a <https://schema.org/PropertyValue>;
+_:t-1668259897550-n32 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0005515> .
 
 <https://disprot.org/DP00246r003> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00246#sequence-location.1_50>;
-  <https://schema.org/additionalProperty> _:t-1668091856282-n32;
+  <https://schema.org/additionalProperty> _:t-1668259897550-n32;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:11785981> .
-
-_:t-1668091856288-n4 a <https://schema.org/DefinedTerm>;
-  <https://schema.org/inDefinedTermSet> _:t-1668091856288-n5;
-  <https://schema.org/termCode> "9606" .
 
 <https://disprot.org/DP00581#sequence-location.1_206> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 206 .
 
-_:t-1668091856288-n10 a <https://schema.org/PropertyValue>;
+_:t-1668259897554-n10 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Protein disorder content";
   <https://schema.org/value> 5.825242718446602E-2;
   <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> .
 
 <https://disprot.org/DP00581#disorder-content> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00581#sequence-location.1_206>;
-  <https://schema.org/additionalProperty> _:t-1668091856288-n10 .
+  <https://schema.org/additionalProperty> _:t-1668259897554-n10 .
 
 <https://disprot.org/DP00581#sequence-location.72_83> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 72;
   <https://schema.org/rangeEnd> 83 .
 
-_:t-1668091856288-n16 a <https://schema.org/PropertyValue>;
+_:t-1668259897554-n16 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -398,82 +336,63 @@ _:t-1668091856288-n16 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP00581r001> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00581#sequence-location.72_83>;
-  <https://schema.org/additionalProperty> _:t-1668091856288-n16;
+  <https://schema.org/additionalProperty> _:t-1668259897554-n16;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:15530367> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00502> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "flexible linker/spacer";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00502" .
-
-_:t-1668091856288-n24 a <https://schema.org/PropertyValue>;
+_:t-1668259897554-n24 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00502> .
 
 <https://disprot.org/DP00581r002> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00581#sequence-location.72_83>;
-  <https://schema.org/additionalProperty> _:t-1668091856288-n24;
+  <https://schema.org/additionalProperty> _:t-1668259897554-n24;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:15530367> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00024> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "molecular recognition display site";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00024" .
-
-_:t-1668091856288-n32 a <https://schema.org/PropertyValue>;
+_:t-1668259897554-n32 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00024> .
 
 <https://disprot.org/DP00581r003> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00581#sequence-location.72_83>;
-  <https://schema.org/additionalProperty> _:t-1668091856288-n32;
+  <https://schema.org/additionalProperty> _:t-1668259897554-n32;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:15530367> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00050> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "disorder to order";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00050" .
-
-_:t-1668091856288-n40 a <https://schema.org/PropertyValue>;
+_:t-1668259897554-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00050> .
 
 <https://disprot.org/DP00581r004> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00581#sequence-location.72_83>;
-  <https://schema.org/additionalProperty> _:t-1668091856288-n40;
+  <https://schema.org/additionalProperty> _:t-1668259897554-n40;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:15530367> .
 
-_:t-1668091856288-n48 a <https://schema.org/PropertyValue>;
+_:t-1668259897554-n48 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0005515> .
 
 <https://disprot.org/DP00581r005> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00581#sequence-location.72_83>;
-  <https://schema.org/additionalProperty> _:t-1668091856288-n48;
+  <https://schema.org/additionalProperty> _:t-1668259897554-n48;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:15530367> .
-
-_:t-1668091856303-n4 a <https://schema.org/DefinedTerm>;
-  <https://schema.org/inDefinedTermSet> _:t-1668091856303-n5;
-  <https://schema.org/termCode> "9031" .
 
 <https://disprot.org/DP01663#sequence-location.1_273> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 273 .
 
-_:t-1668091856303-n10 a <https://schema.org/PropertyValue>;
+_:t-1668259897560-n10 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Protein disorder content";
   <https://schema.org/value> 4.6886446886446886E-1;
   <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> .
 
 <https://disprot.org/DP01663#disorder-content> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01663#sequence-location.1_273>;
-  <https://schema.org/additionalProperty> _:t-1668091856303-n10 .
+  <https://schema.org/additionalProperty> _:t-1668259897560-n10 .
 
 <https://disprot.org/DP01663#sequence-location.25_134> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 25;
   <https://schema.org/rangeEnd> 134 .
 
-_:t-1668091856303-n16 a <https://schema.org/PropertyValue>;
+_:t-1668259897560-n16 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -481,226 +400,142 @@ _:t-1668091856303-n16 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP01663r001> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01663#sequence-location.25_134>;
-  <https://schema.org/additionalProperty> _:t-1668091856303-n16;
+  <https://schema.org/additionalProperty> _:t-1668259897560-n16;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:15647366> .
 
 <https://disprot.org/DP01663#sequence-location.200_217> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 200;
   <https://schema.org/rangeEnd> 217 .
 
-_:t-1668091856303-n24 a <https://schema.org/PropertyValue>;
+_:t-1668259897560-n24 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP01663r002> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01663#sequence-location.200_217>;
-  <https://schema.org/additionalProperty> _:t-1668091856303-n24;
+  <https://schema.org/additionalProperty> _:t-1668259897560-n24;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:15647366> .
 
 <https://mobidb.org/A7VJC2#sequence-location.189_234> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 189;
   <https://schema.org/rangeEnd> 234 .
 
-_:t-1668091856311-n7 a <https://schema.org/PropertyValue>;
+_:t-1668259897564-n7 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://mobidb.org/A7VJC2#prediction-disorder-mobidb_lite.189_234> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://mobidb.org/A7VJC2#sequence-location.189_234>;
-  <https://schema.org/additionalProperty> _:t-1668091856311-n7;
+  <https://schema.org/additionalProperty> _:t-1668259897564-n7;
   <https://schema.org/description> "Protein disordered region predicted by MobiDB-lite" .
 
 <https://mobidb.org/A7VJC2#sequence-location.306_353> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 306;
   <https://schema.org/rangeEnd> 353 .
 
-_:t-1668091856311-n13 a <https://schema.org/PropertyValue>;
+_:t-1668259897564-n13 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://mobidb.org/A7VJC2#prediction-disorder-mobidb_lite.306_353> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://mobidb.org/A7VJC2#sequence-location.306_353>;
-  <https://schema.org/additionalProperty> _:t-1668091856311-n13;
+  <https://schema.org/additionalProperty> _:t-1668259897564-n13;
   <https://schema.org/description> "Protein disordered region predicted by MobiDB-lite" .
 
 <https://proteinensemble.org/PED00026#P12296-A-1_sequence-location.1_67> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 67 .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00120> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "NMR";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00120" .
-
-_:t-1668091856317-n11 a <https://schema.org/PropertyValue>;
+_:t-1668259897567-n11 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00120> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00141> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "TOCSY";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00141" .
-
-_:t-1668091856317-n14 a <https://schema.org/PropertyValue>;
+_:t-1668259897567-n14 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00141> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00143> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "NOESY";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00143" .
-
-_:t-1668091856317-n17 a <https://schema.org/PropertyValue>;
+_:t-1668259897567-n17 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00143> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00147> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "HSQC";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00147" .
-
-_:t-1668091856317-n20 a <https://schema.org/PropertyValue>;
+_:t-1668259897567-n20 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00147> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00160> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "CBCACONH";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00160" .
-
-_:t-1668091856317-n23 a <https://schema.org/PropertyValue>;
+_:t-1668259897567-n23 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00160> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00161> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "HBHACONH";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00161" .
-
-_:t-1668091856317-n26 a <https://schema.org/PropertyValue>;
+_:t-1668259897567-n26 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00161> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00162> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "HCCONH";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00162" .
-
-_:t-1668091856317-n29 a <https://schema.org/PropertyValue>;
+_:t-1668259897567-n29 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00162> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00165> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "CCONH";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00165" .
-
-_:t-1668091856317-n32 a <https://schema.org/PropertyValue>;
+_:t-1668259897567-n32 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00165> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00167> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "chemical shift";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00167" .
-
-_:t-1668091856317-n35 a <https://schema.org/PropertyValue>;
+_:t-1668259897567-n35 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00167> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00168> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "relaxation";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00168" .
-
-_:t-1668091856317-n38 a <https://schema.org/PropertyValue>;
+_:t-1668259897567-n38 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00168> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00175> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "NOE";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00175" .
-
-_:t-1668091856317-n41 a <https://schema.org/PropertyValue>;
+_:t-1668259897567-n41 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00175> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl:00191> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "CYANA";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00191" .
-
-_:t-1668091856317-n44 a <https://schema.org/PropertyValue>;
+_:t-1668259897567-n44 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00191> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl:00193> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "CS-ROSETTA";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00193" .
-
-_:t-1668091856317-n47 a <https://schema.org/PropertyValue>;
+_:t-1668259897567-n47 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00193> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl:00202> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "NMRpipe";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00202" .
-
-_:t-1668091856317-n50 a <https://schema.org/PropertyValue>;
+_:t-1668259897567-n50 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00202> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl:00203> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "CARA";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00203" .
-
-_:t-1668091856317-n53 a <https://schema.org/PropertyValue>;
+_:t-1668259897567-n53 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00203> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl:00204> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "SPARKY";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00204" .
-
-_:t-1668091856317-n56 a <https://schema.org/PropertyValue>;
+_:t-1668259897567-n56 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl:00204> .
 
 <https://proteinensemble.org/PED00026#P12296-A-1_sequence-annotation> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://proteinensemble.org/PED00026#P12296-A-1_sequence-location.1_67>;
-  <https://schema.org/additionalProperty> _:t-1668091856317-n11, _:t-1668091856317-n14,
-    _:t-1668091856317-n17, _:t-1668091856317-n20, _:t-1668091856317-n23, _:t-1668091856317-n26,
-    _:t-1668091856317-n29, _:t-1668091856317-n32, _:t-1668091856317-n35, _:t-1668091856317-n38,
-    _:t-1668091856317-n41, _:t-1668091856317-n44, _:t-1668091856317-n47, _:t-1668091856317-n50,
-    _:t-1668091856317-n53, _:t-1668091856317-n56 .
-
-_:t-1668091856332-n4 a <https://schema.org/DefinedTerm>;
-  <https://schema.org/inDefinedTermSet> _:t-1668091856332-n5;
-  <https://schema.org/termCode> "8355" .
+  <https://schema.org/additionalProperty> _:t-1668259897567-n11, _:t-1668259897567-n14,
+    _:t-1668259897567-n17, _:t-1668259897567-n20, _:t-1668259897567-n23, _:t-1668259897567-n26,
+    _:t-1668259897567-n29, _:t-1668259897567-n32, _:t-1668259897567-n35, _:t-1668259897567-n38,
+    _:t-1668259897567-n41, _:t-1668259897567-n44, _:t-1668259897567-n47, _:t-1668259897567-n50,
+    _:t-1668259897567-n53, _:t-1668259897567-n56 .
 
 <https://disprot.org/DP01389#sequence-location.1_136> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 136 .
 
-_:t-1668091856332-n10 a <https://schema.org/PropertyValue>;
+_:t-1668259897576-n10 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Protein disorder content";
   <https://schema.org/value> 2.5735294117647056E-1;
   <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> .
 
 <https://disprot.org/DP01389#disorder-content> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01389#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856332-n10 .
+  <https://schema.org/additionalProperty> _:t-1668259897576-n10 .
 
 <https://disprot.org/DP01389#sequence-location.1_35> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 35 .
 
-_:t-1668091856332-n16 a <https://schema.org/PropertyValue>;
+_:t-1668259897576-n16 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -708,31 +543,27 @@ _:t-1668091856332-n16 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP01389r001> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01389#sequence-location.1_35>;
-  <https://schema.org/additionalProperty> _:t-1668091856332-n16;
+  <https://schema.org/additionalProperty> _:t-1668259897576-n16;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:24088044> .
-
-_:t-1668091856336-n4 a <https://schema.org/DefinedTerm>;
-  <https://schema.org/inDefinedTermSet> _:t-1668091856336-n5;
-  <https://schema.org/termCode> "559292" .
 
 <https://disprot.org/DP01638#sequence-location.1_642> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 642 .
 
-_:t-1668091856336-n10 a <https://schema.org/PropertyValue>;
+_:t-1668259897579-n10 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Protein disorder content";
   <https://schema.org/value> 3.426791277258567E-2;
   <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> .
 
 <https://disprot.org/DP01638#disorder-content> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01638#sequence-location.1_642>;
-  <https://schema.org/additionalProperty> _:t-1668091856336-n10 .
+  <https://schema.org/additionalProperty> _:t-1668259897579-n10 .
 
 <https://disprot.org/DP01638#sequence-location.64_85> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 64;
   <https://schema.org/rangeEnd> 85 .
 
-_:t-1668091856336-n16 a <https://schema.org/PropertyValue>;
+_:t-1668259897579-n16 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -740,14 +571,14 @@ _:t-1668091856336-n16 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP01638r001> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01638#sequence-location.64_85>;
-  <https://schema.org/additionalProperty> _:t-1668091856336-n16;
+  <https://schema.org/additionalProperty> _:t-1668259897579-n16;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:22373916> .
 
 <https://disprot.org/DP01638#sequence-location.65_84> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 65;
   <https://schema.org/rangeEnd> 84 .
 
-_:t-1668091856336-n24 a <https://schema.org/PropertyValue>;
+_:t-1668259897579-n24 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -755,14 +586,14 @@ _:t-1668091856336-n24 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP01638r002> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01638#sequence-location.65_84>;
-  <https://schema.org/additionalProperty> _:t-1668091856336-n24;
+  <https://schema.org/additionalProperty> _:t-1668259897579-n24;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:15909982> .
 
 <https://disprot.org/DP01638#sequence-location.66_84> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 66;
   <https://schema.org/rangeEnd> 84 .
 
-_:t-1668091856336-n32 a <https://schema.org/PropertyValue>;
+_:t-1668259897579-n32 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -770,14 +601,14 @@ _:t-1668091856336-n32 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP01638r003> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01638#sequence-location.66_84>;
-  <https://schema.org/additionalProperty> _:t-1668091856336-n32;
+  <https://schema.org/additionalProperty> _:t-1668259897579-n32;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:21670263> .
 
 <https://disprot.org/DP01638#sequence-location.64_84> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 64;
   <https://schema.org/rangeEnd> 84 .
 
-_:t-1668091856336-n40 a <https://schema.org/PropertyValue>;
+_:t-1668259897579-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -785,36 +616,32 @@ _:t-1668091856336-n40 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP01638r004> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01638#sequence-location.64_84>;
-  <https://schema.org/additionalProperty> _:t-1668091856336-n40;
+  <https://schema.org/additionalProperty> _:t-1668259897579-n40;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:16793543> .
 
-_:t-1668091856336-n48 a <https://schema.org/PropertyValue>;
+_:t-1668259897579-n48 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00502> .
 
 <https://disprot.org/DP01638r005> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01638#sequence-location.64_84>;
-  <https://schema.org/additionalProperty> _:t-1668091856336-n48;
+  <https://schema.org/additionalProperty> _:t-1668259897579-n48;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:16793543> .
-
-_:t-1668091856345-n4 a <https://schema.org/DefinedTerm>;
-  <https://schema.org/inDefinedTermSet> _:t-1668091856345-n5;
-  <https://schema.org/termCode> "4567" .
 
 <https://disprot.org/DP01789#sequence-location.1_136> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 136 .
 
-_:t-1668091856345-n10 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n10 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Protein disorder content";
   <https://schema.org/value> 1;
   <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> .
 
 <https://disprot.org/DP01789#disorder-content> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n10 .
+  <https://schema.org/additionalProperty> _:t-1668259897585-n10 .
 
-_:t-1668091856345-n16 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n16 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -822,190 +649,176 @@ _:t-1668091856345-n16 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP01789r001> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n16;
+  <https://schema.org/additionalProperty> _:t-1668259897585-n16;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:29138428> .
 
-_:t-1668091856345-n24 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n24 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP01789r002> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n24;
+  <https://schema.org/additionalProperty> _:t-1668259897585-n24;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:29138428> .
 
-_:t-1668091856345-n32 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n32 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP01789r003> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n32;
+  <https://schema.org/additionalProperty> _:t-1668259897585-n32;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:29138428> .
 
-_:t-1668091856345-n40 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP01789r004> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n40;
+  <https://schema.org/additionalProperty> _:t-1668259897585-n40;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:29138428> .
 
-_:t-1668091856345-n48 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n48 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP01789r005> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n48;
+  <https://schema.org/additionalProperty> _:t-1668259897585-n48;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:29138428> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0043167> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "ion binding";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "GO:0043167" .
-
-_:t-1668091856345-n56 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n56 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0043167> .
 
 <https://disprot.org/DP01789r006> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n56;
+  <https://schema.org/additionalProperty> _:t-1668259897585-n56;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:29138428> .
 
-_:t-1668091856345-n64 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n64 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP01789r007> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n64;
+  <https://schema.org/additionalProperty> _:t-1668259897585-n64;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:29138428> .
 
-_:t-1668091856345-n72 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n72 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00050> .
 
 <https://disprot.org/DP01789r008> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n72;
+  <https://schema.org/additionalProperty> _:t-1668259897585-n72;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:29138428> .
 
-_:t-1668091856345-n80 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n80 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0043167> .
 
 <https://disprot.org/DP01789r009> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n80;
+  <https://schema.org/additionalProperty> _:t-1668259897585-n80;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:29138428> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0051238> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "sequestering of metal ion";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "GO:0051238" .
-
-_:t-1668091856345-n88 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n88 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0051238> .
 
 <https://disprot.org/DP01789r010> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n88;
+  <https://schema.org/additionalProperty> _:t-1668259897585-n88;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:29138428> .
 
-_:t-1668091856345-n96 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n96 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0051238> .
 
 <https://disprot.org/DP01789r011> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n96;
+  <https://schema.org/additionalProperty> _:t-1668259897585-n96;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:29138428> .
 
-_:t-1668091856345-n104 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n104 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00050> .
 
 <https://disprot.org/DP01789r012> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n104;
+  <https://schema.org/additionalProperty> _:t-1668259897585-n104;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:29138428> .
 
-_:t-1668091856345-n112 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n112 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0043167> .
 
 <https://disprot.org/DP01789r013> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n112;
+  <https://schema.org/additionalProperty> _:t-1668259897585-n112;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:29138428> .
 
-_:t-1668091856345-n120 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n120 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0051238> .
 
 <https://disprot.org/DP01789r014> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n120;
+  <https://schema.org/additionalProperty> _:t-1668259897585-n120;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:29138428> .
 
-_:t-1668091856345-n128 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n128 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP01789r015> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n128;
+  <https://schema.org/additionalProperty> _:t-1668259897585-n128;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:29138428> .
 
-_:t-1668091856345-n136 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n136 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0051238> .
 
 <https://disprot.org/DP01789r016> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n136;
+  <https://schema.org/additionalProperty> _:t-1668259897585-n136;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:29138428> .
 
-_:t-1668091856345-n144 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n144 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00050> .
 
 <https://disprot.org/DP01789r017> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n144;
+  <https://schema.org/additionalProperty> _:t-1668259897585-n144;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:29138428> .
 
-_:t-1668091856345-n152 a <https://schema.org/PropertyValue>;
+_:t-1668259897585-n152 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0043167> .
 
 <https://disprot.org/DP01789r018> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01789#sequence-location.1_136>;
-  <https://schema.org/additionalProperty> _:t-1668091856345-n152;
+  <https://schema.org/additionalProperty> _:t-1668259897585-n152;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:29138428> .
-
-_:t-1668091856368-n4 a <https://schema.org/DefinedTerm>;
-  <https://schema.org/inDefinedTermSet> _:t-1668091856368-n5;
-  <https://schema.org/termCode> "70226" .
 
 <https://disprot.org/DP00186#sequence-location.1_143> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 143 .
 
-_:t-1668091856368-n10 a <https://schema.org/PropertyValue>;
+_:t-1668259897605-n10 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Protein disorder content";
   <https://schema.org/value> 1;
   <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> .
 
 <https://disprot.org/DP00186#disorder-content> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00186#sequence-location.1_143>;
-  <https://schema.org/additionalProperty> _:t-1668091856368-n10 .
+  <https://schema.org/additionalProperty> _:t-1668259897605-n10 .
 
-_:t-1668091856368-n16 a <https://schema.org/PropertyValue>;
+_:t-1668259897605-n16 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -1013,76 +826,72 @@ _:t-1668091856368-n16 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP00186r001> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00186#sequence-location.1_143>;
-  <https://schema.org/additionalProperty> _:t-1668091856368-n16;
+  <https://schema.org/additionalProperty> _:t-1668259897605-n16;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12569097> .
 
-_:t-1668091856368-n24 a <https://schema.org/PropertyValue>;
+_:t-1668259897605-n24 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00501> .
 
 <https://disprot.org/DP00186r002> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00186#sequence-location.1_143>;
-  <https://schema.org/additionalProperty> _:t-1668091856368-n24;
+  <https://schema.org/additionalProperty> _:t-1668259897605-n24;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12569097> .
 
-_:t-1668091856368-n32 a <https://schema.org/PropertyValue>;
+_:t-1668259897605-n32 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP00186r003> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00186#sequence-location.1_143>;
-  <https://schema.org/additionalProperty> _:t-1668091856368-n32;
+  <https://schema.org/additionalProperty> _:t-1668259897605-n32;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12569097> .
 
-_:t-1668091856368-n40 a <https://schema.org/PropertyValue>;
+_:t-1668259897605-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00501> .
 
 <https://disprot.org/DP00186r004> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00186#sequence-location.1_143>;
-  <https://schema.org/additionalProperty> _:t-1668091856368-n40;
+  <https://schema.org/additionalProperty> _:t-1668259897605-n40;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12569097> .
 
-_:t-1668091856368-n48 a <https://schema.org/PropertyValue>;
+_:t-1668259897605-n48 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP00186r005> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00186#sequence-location.1_143>;
-  <https://schema.org/additionalProperty> _:t-1668091856368-n48;
+  <https://schema.org/additionalProperty> _:t-1668259897605-n48;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12569097> .
 
-_:t-1668091856368-n56 a <https://schema.org/PropertyValue>;
+_:t-1668259897605-n56 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00501> .
 
 <https://disprot.org/DP00186r006> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00186#sequence-location.1_143>;
-  <https://schema.org/additionalProperty> _:t-1668091856368-n56;
+  <https://schema.org/additionalProperty> _:t-1668259897605-n56;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12569097> .
-
-_:t-1668091856378-n4 a <https://schema.org/DefinedTerm>;
-  <https://schema.org/inDefinedTermSet> _:t-1668091856378-n5;
-  <https://schema.org/termCode> "9606" .
 
 <https://disprot.org/DP01950#sequence-location.1_2647> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 2647 .
 
-_:t-1668091856378-n10 a <https://schema.org/PropertyValue>;
+_:t-1668259897611-n10 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Protein disorder content";
   <https://schema.org/value> 1.360030222893842E-2;
   <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> .
 
 <https://disprot.org/DP01950#disorder-content> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01950#sequence-location.1_2647>;
-  <https://schema.org/additionalProperty> _:t-1668091856378-n10 .
+  <https://schema.org/additionalProperty> _:t-1668259897611-n10 .
 
 <https://disprot.org/DP01950#sequence-location.1_36> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 36 .
 
-_:t-1668091856378-n16 a <https://schema.org/PropertyValue>;
+_:t-1668259897611-n16 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -1090,31 +899,27 @@ _:t-1668091856378-n16 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP01950r001> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01950#sequence-location.1_36>;
-  <https://schema.org/additionalProperty> _:t-1668091856378-n16;
+  <https://schema.org/additionalProperty> _:t-1668259897611-n16;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:19773341> .
-
-_:t-1668091856383-n4 a <https://schema.org/DefinedTerm>;
-  <https://schema.org/inDefinedTermSet> _:t-1668091856383-n5;
-  <https://schema.org/termCode> "10299" .
 
 <https://disprot.org/DP03498#sequence-location.1_1374> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 1374 .
 
-_:t-1668091856383-n10 a <https://schema.org/PropertyValue>;
+_:t-1668259897615-n10 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Protein disorder content";
   <https://schema.org/value> 3.566229985443959E-2;
   <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> .
 
 <https://disprot.org/DP03498#disorder-content> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP03498#sequence-location.1_1374>;
-  <https://schema.org/additionalProperty> _:t-1668091856383-n10 .
+  <https://schema.org/additionalProperty> _:t-1668259897615-n10 .
 
 <https://disprot.org/DP03498#sequence-location.451_483> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 451;
   <https://schema.org/rangeEnd> 483 .
 
-_:t-1668091856383-n16 a <https://schema.org/PropertyValue>;
+_:t-1668259897615-n16 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -1122,40 +927,36 @@ _:t-1668091856383-n16 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP03498r001> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP03498#sequence-location.451_483>;
-  <https://schema.org/additionalProperty> _:t-1668091856383-n16;
+  <https://schema.org/additionalProperty> _:t-1668259897615-n16;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12574112> .
 
 <https://disprot.org/DP03498#sequence-location.523_538> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 523;
   <https://schema.org/rangeEnd> 538 .
 
-_:t-1668091856383-n24 a <https://schema.org/PropertyValue>;
+_:t-1668259897615-n24 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP03498r002> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP03498#sequence-location.523_538>;
-  <https://schema.org/additionalProperty> _:t-1668091856383-n24;
+  <https://schema.org/additionalProperty> _:t-1668259897615-n24;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12574112> .
-
-_:t-1668091856388-n4 a <https://schema.org/DefinedTerm>;
-  <https://schema.org/inDefinedTermSet> _:t-1668091856388-n5;
-  <https://schema.org/termCode> "9913" .
 
 <https://disprot.org/DP00347#sequence-location.1_87> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 87 .
 
-_:t-1668091856388-n10 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n10 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Protein disorder content";
   <https://schema.org/value> 1;
   <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> .
 
 <https://disprot.org/DP00347#disorder-content> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.1_87>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n10 .
+  <https://schema.org/additionalProperty> _:t-1668259897619-n10 .
 
-_:t-1668091856388-n16 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n16 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -1163,87 +964,82 @@ _:t-1668091856388-n16 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP00347r001> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.1_87>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n16;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n16;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12643535> .
 
-_:t-1668091856388-n24 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n24 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0043167> .
 
 <https://disprot.org/DP00347r002> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.1_87>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n24;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n24;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12643535> .
 
-_:t-1668091856388-n32 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n32 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP00347r003> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.1_87>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n32;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n32;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12643535> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00052> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "disorder to pre-molten globule";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00052" .
-
-_:t-1668091856388-n40 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00052> .
 
 <https://disprot.org/DP00347r004> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.1_87>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n40;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n40;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12643535> .
 
-_:t-1668091856388-n48 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n48 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0043167> .
 
 <https://disprot.org/DP00347r005> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.1_87>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n48;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n48;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12643535> .
 
-_:t-1668091856388-n56 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n56 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP00347r006> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.1_87>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n56;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n56;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12643535> .
 
-_:t-1668091856388-n64 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n64 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0043167> .
 
 <https://disprot.org/DP00347r007> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.1_87>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n64;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n64;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12643535> .
 
-_:t-1668091856388-n72 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n72 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP00347r008> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.1_87>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n72;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n72;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12643535> .
 
-_:t-1668091856388-n80 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n80 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0043167> .
 
 <https://disprot.org/DP00347r009> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.1_87>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n80;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n80;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12643535> .
 
-_:t-1668091856388-n88 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n88 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -1251,121 +1047,112 @@ _:t-1668091856388-n88 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP00347r010> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.1_87>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n88;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n88;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:18230733> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0060090> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "molecular adaptor activity";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "GO:0060090" .
-
-_:t-1668091856388-n96 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n96 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0060090> .
 
 <https://disprot.org/DP00347r011> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.1_87>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n96;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n96;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:18230733> .
 
-_:t-1668091856388-n104 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n104 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0005515> .
 
 <https://disprot.org/DP00347r012> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.1_87>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n104;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n104;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:18230733> .
 
 <https://disprot.org/DP00347#sequence-location.1_21> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 21 .
 
-_:t-1668091856388-n112 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n112 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP00347r013> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.1_21>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n112;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n112;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:18230733> .
 
-_:t-1668091856388-n120 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n120 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0060090> .
 
 <https://disprot.org/DP00347r014> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.1_21>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n120;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n120;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:18230733> .
 
-_:t-1668091856388-n128 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n128 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0005515> .
 
 <https://disprot.org/DP00347r015> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.1_21>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n128;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n128;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:18230733> .
 
 <https://disprot.org/DP00347#sequence-location.46_78> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 46;
   <https://schema.org/rangeEnd> 78 .
 
-_:t-1668091856388-n136 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n136 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP00347r016> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.46_78>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n136;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n136;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:18230733> .
 
-_:t-1668091856388-n144 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n144 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0060090> .
 
 <https://disprot.org/DP00347r017> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.46_78>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n144;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n144;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:18230733> .
 
-_:t-1668091856388-n152 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n152 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00050> .
 
 <https://disprot.org/DP00347r018> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.46_78>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n152;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n152;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:18230733> .
 
-_:t-1668091856388-n160 a <https://schema.org/PropertyValue>;
+_:t-1668259897619-n160 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0005515> .
 
 <https://disprot.org/DP00347r019> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00347#sequence-location.46_78>;
-  <https://schema.org/additionalProperty> _:t-1668091856388-n160;
+  <https://schema.org/additionalProperty> _:t-1668259897619-n160;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:18230733> .
-
-_:t-1668091856411-n4 a <https://schema.org/DefinedTerm>;
-  <https://schema.org/inDefinedTermSet> _:t-1668091856411-n5;
-  <https://schema.org/termCode> "10090" .
 
 <https://disprot.org/DP01101#sequence-location.1_169> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 169 .
 
-_:t-1668091856411-n10 a <https://schema.org/PropertyValue>;
+_:t-1668259897639-n10 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Protein disorder content";
   <https://schema.org/value> 1;
   <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> .
 
 <https://disprot.org/DP01101#disorder-content> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01101#sequence-location.1_169>;
-  <https://schema.org/additionalProperty> _:t-1668091856411-n10 .
+  <https://schema.org/additionalProperty> _:t-1668259897639-n10 .
 
-_:t-1668091856411-n16 a <https://schema.org/PropertyValue>;
+_:t-1668259897639-n16 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -1373,19 +1160,19 @@ _:t-1668091856411-n16 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP01101r001> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01101#sequence-location.1_169>;
-  <https://schema.org/additionalProperty> _:t-1668091856411-n16;
+  <https://schema.org/additionalProperty> _:t-1668259897639-n16;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12372316> .
 
-_:t-1668091856411-n24 a <https://schema.org/PropertyValue>;
+_:t-1668259897639-n24 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0005515> .
 
 <https://disprot.org/DP01101r002> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01101#sequence-location.1_169>;
-  <https://schema.org/additionalProperty> _:t-1668091856411-n24;
+  <https://schema.org/additionalProperty> _:t-1668259897639-n24;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:12372316> .
 
-_:t-1668091856411-n32 a <https://schema.org/PropertyValue>;
+_:t-1668259897639-n32 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -1393,31 +1180,27 @@ _:t-1668091856411-n32 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP01101r003> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01101#sequence-location.1_169>;
-  <https://schema.org/additionalProperty> _:t-1668091856411-n32;
+  <https://schema.org/additionalProperty> _:t-1668259897639-n32;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:19636827> .
-
-_:t-1668091856417-n4 a <https://schema.org/DefinedTerm>;
-  <https://schema.org/inDefinedTermSet> _:t-1668091856417-n5;
-  <https://schema.org/termCode> "3702" .
 
 <https://disprot.org/DP02644#sequence-location.1_711> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 711 .
 
-_:t-1668091856417-n10 a <https://schema.org/PropertyValue>;
+_:t-1668259897643-n10 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Protein disorder content";
   <https://schema.org/value> 3.2489451476793246E-1;
   <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> .
 
 <https://disprot.org/DP02644#disorder-content> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP02644#sequence-location.1_711>;
-  <https://schema.org/additionalProperty> _:t-1668091856417-n10 .
+  <https://schema.org/additionalProperty> _:t-1668259897643-n10 .
 
 <https://disprot.org/DP02644#sequence-location.263_303> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 263;
   <https://schema.org/rangeEnd> 303 .
 
-_:t-1668091856417-n16 a <https://schema.org/PropertyValue>;
+_:t-1668259897643-n16 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -1425,58 +1208,49 @@ _:t-1668091856417-n16 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP02644r001> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP02644#sequence-location.263_303>;
-  <https://schema.org/additionalProperty> _:t-1668091856417-n16;
+  <https://schema.org/additionalProperty> _:t-1668259897643-n16;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:28103421> .
 
-_:t-1668091856417-n24 a <https://schema.org/PropertyValue>;
+_:t-1668259897643-n24 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00502> .
 
 <https://disprot.org/DP02644r002> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP02644#sequence-location.263_303>;
-  <https://schema.org/additionalProperty> _:t-1668091856417-n24;
+  <https://schema.org/additionalProperty> _:t-1668259897643-n24;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:28103421> .
 
 <https://disprot.org/DP02644#sequence-location.73_303> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 73;
   <https://schema.org/rangeEnd> 303 .
 
-_:t-1668091856417-n32 a <https://schema.org/PropertyValue>;
+_:t-1668259897643-n32 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP02644r003> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP02644#sequence-location.73_303>;
-  <https://schema.org/additionalProperty> _:t-1668091856417-n32;
+  <https://schema.org/additionalProperty> _:t-1668259897643-n32;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:28103421> .
-
-_:t-1668091856424-n4 a <https://schema.org/DefinedTerm>;
-  <https://schema.org/inDefinedTermSet> _:t-1668091856424-n5;
-  <https://schema.org/termCode> "121791" .
 
 <https://disprot.org/DP00699#sequence-location.1_709> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 709 .
 
-_:t-1668091856424-n10 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n10 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Protein disorder content";
   <https://schema.org/value> 5.726375176304654E-1;
   <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> .
 
 <https://disprot.org/DP00699#disorder-content> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_709>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n10 .
+  <https://schema.org/additionalProperty> _:t-1668259897649-n10 .
 
 <https://disprot.org/DP00699#sequence-location.1_406> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 406 .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00078> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "pre-molten globule";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00078" .
-
-_:t-1668091856424-n16 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n16 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00078> .
 
@@ -1484,55 +1258,55 @@ _:t-1668091856424-n16 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP00699r001> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_406>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n16;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n16;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:20657787> .
 
-_:t-1668091856424-n24 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n24 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00078> .
 
 <https://disprot.org/DP00699r005> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_406>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n24;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n24;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:20657787> .
 
-_:t-1668091856424-n32 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n32 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00078> .
 
 <https://disprot.org/DP00699r009> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_406>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n32;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n32;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:20657787> .
 
-_:t-1668091856424-n40 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00078> .
 
 <https://disprot.org/DP00699r013> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_406>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n40;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n40;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:20657787> .
 
-_:t-1668091856424-n48 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n48 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00078> .
 
 <https://disprot.org/DP00699r017> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_406>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n48;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n48;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:20657787> .
 
-_:t-1668091856424-n56 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n56 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00078> .
 
 <https://disprot.org/DP00699r029> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_406>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n56;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n56;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:20657787> .
 
-_:t-1668091856424-n64 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n64 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -1540,23 +1314,23 @@ _:t-1668091856424-n64 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP00699r037> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_406>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n64;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n64;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:33177626> .
 
-_:t-1668091856424-n72 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n72 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP00699r038> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_406>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n72;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n72;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:33177626> .
 
 <https://disprot.org/DP00699#sequence-location.1_100> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 100 .
 
-_:t-1668091856424-n80 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n80 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -1564,129 +1338,125 @@ _:t-1668091856424-n80 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP00699r039> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_100>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n80;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n80;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25108352> .
 
-_:t-1668091856424-n88 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n88 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP00699r040> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_100>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n88;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n88;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25108352> .
 
-_:t-1668091856424-n96 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n96 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP00699r041> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_100>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n96;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n96;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25108352> .
 
 <https://disprot.org/DP00699#sequence-location.1_35> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 35 .
 
-_:t-1668091856424-n104 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n104 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0005515> .
 
 <https://disprot.org/DP00699r042> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_35>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n104;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n104;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25108352> .
 
-_:t-1668091856424-n112 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n112 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00050> .
 
 <https://disprot.org/DP00699r043> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_35>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n112;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n112;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25108352> .
 
 <https://disprot.org/DP00699#sequence-location.1_50> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 50 .
 
-_:t-1668091856424-n120 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n120 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0005515> .
 
 <https://disprot.org/DP00699r044> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_50>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n120;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n120;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25108352> .
 
-_:t-1668091856424-n128 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n128 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0005515> .
 
 <https://disprot.org/DP00699r045> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_50>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n128;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n128;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25108352> .
 
-_:t-1668091856424-n136 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n136 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0060090> .
 
 <https://disprot.org/DP00699r046> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_50>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n136;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n136;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25108352> .
 
-_:t-1668091856424-n144 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n144 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0060090> .
 
 <https://disprot.org/DP00699r047> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_50>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n144;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n144;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25108352> .
 
-_:t-1668091856424-n152 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n152 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0060090> .
 
 <https://disprot.org/DP00699r048> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_35>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n152;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n152;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25108352> .
 
-_:t-1668091856424-n160 a <https://schema.org/PropertyValue>;
+_:t-1668259897649-n160 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00050> .
 
 <https://disprot.org/DP00699r049> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00699#sequence-location.1_100>;
-  <https://schema.org/additionalProperty> _:t-1668091856424-n160;
+  <https://schema.org/additionalProperty> _:t-1668259897649-n160;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:25108352> .
-
-_:t-1668091856446-n4 a <https://schema.org/DefinedTerm>;
-  <https://schema.org/inDefinedTermSet> _:t-1668091856446-n5;
-  <https://schema.org/termCode> "208964" .
 
 <https://disprot.org/DP00176#sequence-location.1_720> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 720 .
 
-_:t-1668091856446-n10 a <https://schema.org/PropertyValue>;
+_:t-1668259897665-n10 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Protein disorder content";
   <https://schema.org/value> 8.472222222222223E-2;
   <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> .
 
 <https://disprot.org/DP00176#disorder-content> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00176#sequence-location.1_720>;
-  <https://schema.org/additionalProperty> _:t-1668091856446-n10 .
+  <https://schema.org/additionalProperty> _:t-1668259897665-n10 .
 
 <https://disprot.org/DP00176#sequence-location.38_55> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 38;
   <https://schema.org/rangeEnd> 55 .
 
-_:t-1668091856446-n16 a <https://schema.org/PropertyValue>;
+_:t-1668259897665-n16 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -1694,125 +1464,111 @@ _:t-1668091856446-n16 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP00176r001> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00176#sequence-location.38_55>;
-  <https://schema.org/additionalProperty> _:t-1668091856446-n16;
+  <https://schema.org/additionalProperty> _:t-1668259897665-n16;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:16139844> .
 
 <https://disprot.org/DP00176#sequence-location.81_95> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 81;
   <https://schema.org/rangeEnd> 95 .
 
-_:t-1668091856446-n24 a <https://schema.org/PropertyValue>;
+_:t-1668259897665-n24 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP00176r002> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00176#sequence-location.81_95>;
-  <https://schema.org/additionalProperty> _:t-1668091856446-n24;
+  <https://schema.org/additionalProperty> _:t-1668259897665-n24;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:16139844> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0098772> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "molecular function regulator";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "GO:0098772" .
-
-_:t-1668091856446-n32 a <https://schema.org/PropertyValue>;
+_:t-1668259897665-n32 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0098772> .
 
 <https://disprot.org/DP00176r003> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00176#sequence-location.81_95>;
-  <https://schema.org/additionalProperty> _:t-1668091856446-n32;
+  <https://schema.org/additionalProperty> _:t-1668259897665-n32;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:16139844> .
 
-<https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00056> a <https://schema.org/DefinedTerm>;
-  <https://schema.org/name> "order to disorder";
-  <https://schema.org/inDefinedTermSet> <https://disprot.org/assets/data/IDPO_v0.2.owl>;
-  <https://schema.org/termCode> "IDPO:00056" .
-
-_:t-1668091856446-n40 a <https://schema.org/PropertyValue>;
+_:t-1668259897665-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00056> .
 
 <https://disprot.org/DP00176r004> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00176#sequence-location.81_95>;
-  <https://schema.org/additionalProperty> _:t-1668091856446-n40;
+  <https://schema.org/additionalProperty> _:t-1668259897665-n40;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:16139844> .
 
-_:t-1668091856446-n48 a <https://schema.org/PropertyValue>;
+_:t-1668259897665-n48 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0005515> .
 
 <https://disprot.org/DP00176r005> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00176#sequence-location.81_95>;
-  <https://schema.org/additionalProperty> _:t-1668091856446-n48;
+  <https://schema.org/additionalProperty> _:t-1668259897665-n48;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:16139844> .
 
 <https://disprot.org/DP00176#sequence-location.551_568> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 551;
   <https://schema.org/rangeEnd> 568 .
 
-_:t-1668091856446-n56 a <https://schema.org/PropertyValue>;
+_:t-1668259897665-n56 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP00176r006> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00176#sequence-location.551_568>;
-  <https://schema.org/additionalProperty> _:t-1668091856446-n56;
+  <https://schema.org/additionalProperty> _:t-1668259897665-n56;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:16139844> .
 
-_:t-1668091856446-n64 a <https://schema.org/PropertyValue>;
+_:t-1668259897665-n64 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00056> .
 
 <https://disprot.org/DP00176r007> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00176#sequence-location.551_568>;
-  <https://schema.org/additionalProperty> _:t-1668091856446-n64;
+  <https://schema.org/additionalProperty> _:t-1668259897665-n64;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:16139844> .
 
 <https://disprot.org/DP00176#sequence-location.504_513> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 504;
   <https://schema.org/rangeEnd> 513 .
 
-_:t-1668091856446-n72 a <https://schema.org/PropertyValue>;
+_:t-1668259897665-n72 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP00176r008> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00176#sequence-location.504_513>;
-  <https://schema.org/additionalProperty> _:t-1668091856446-n72;
+  <https://schema.org/additionalProperty> _:t-1668259897665-n72;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:16139844> .
 
-_:t-1668091856446-n80 a <https://schema.org/PropertyValue>;
+_:t-1668259897665-n80 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00056> .
 
 <https://disprot.org/DP00176r009> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP00176#sequence-location.504_513>;
-  <https://schema.org/additionalProperty> _:t-1668091856446-n80;
+  <https://schema.org/additionalProperty> _:t-1668259897665-n80;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:16139844> .
-
-_:t-1668091856460-n4 a <https://schema.org/DefinedTerm>;
-  <https://schema.org/inDefinedTermSet> _:t-1668091856460-n5;
-  <https://schema.org/termCode> "559292" .
 
 <https://disprot.org/DP02847#sequence-location.1_350> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 350 .
 
-_:t-1668091856460-n10 a <https://schema.org/PropertyValue>;
+_:t-1668259897674-n10 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Protein disorder content";
   <https://schema.org/value> 6.685714285714286E-1;
   <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> .
 
 <https://disprot.org/DP02847#disorder-content> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP02847#sequence-location.1_350>;
-  <https://schema.org/additionalProperty> _:t-1668091856460-n10 .
+  <https://schema.org/additionalProperty> _:t-1668259897674-n10 .
 
 <https://disprot.org/DP02847#sequence-location.117_350> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 117;
   <https://schema.org/rangeEnd> 350 .
 
-_:t-1668091856460-n16 a <https://schema.org/PropertyValue>;
+_:t-1668259897674-n16 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -1820,14 +1576,14 @@ _:t-1668091856460-n16 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP02847r001> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP02847#sequence-location.117_350>;
-  <https://schema.org/additionalProperty> _:t-1668091856460-n16;
+  <https://schema.org/additionalProperty> _:t-1668259897674-n16;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:31582849> .
 
 <https://disprot.org/DP02847#sequence-location.337_345> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 337;
   <https://schema.org/rangeEnd> 345 .
 
-_:t-1668091856460-n24 a <https://schema.org/PropertyValue>;
+_:t-1668259897674-n24 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0005515> .
 
@@ -1835,19 +1591,19 @@ _:t-1668091856460-n24 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP02847r002> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP02847#sequence-location.337_345>;
-  <https://schema.org/additionalProperty> _:t-1668091856460-n24;
+  <https://schema.org/additionalProperty> _:t-1668259897674-n24;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:22003126> .
 
-_:t-1668091856460-n32 a <https://schema.org/PropertyValue>;
+_:t-1668259897674-n32 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0098772> .
 
 <https://disprot.org/DP02847r003> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP02847#sequence-location.337_345>;
-  <https://schema.org/additionalProperty> _:t-1668091856460-n32;
+  <https://schema.org/additionalProperty> _:t-1668259897674-n32;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:22003126> .
 
-_:t-1668091856460-n40 a <https://schema.org/PropertyValue>;
+_:t-1668259897674-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0098772> .
 
@@ -1855,31 +1611,27 @@ _:t-1668091856460-n40 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP02847r004> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP02847#sequence-location.337_345>;
-  <https://schema.org/additionalProperty> _:t-1668091856460-n40;
+  <https://schema.org/additionalProperty> _:t-1668259897674-n40;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:14594808> .
-
-_:t-1668091856467-n4 a <https://schema.org/DefinedTerm>;
-  <https://schema.org/inDefinedTermSet> _:t-1668091856467-n5;
-  <https://schema.org/termCode> "1334" .
 
 <https://disprot.org/DP01032#sequence-location.1_1091> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 1091 .
 
-_:t-1668091856467-n10 a <https://schema.org/PropertyValue>;
+_:t-1668259897680-n10 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Protein disorder content";
   <https://schema.org/value> 1.466544454628781E-1;
   <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> .
 
 <https://disprot.org/DP01032#disorder-content> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01032#sequence-location.1_1091>;
-  <https://schema.org/additionalProperty> _:t-1668091856467-n10 .
+  <https://schema.org/additionalProperty> _:t-1668259897680-n10 .
 
 <https://disprot.org/DP01032#sequence-location.810_969> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 810;
   <https://schema.org/rangeEnd> 969 .
 
-_:t-1668091856467-n16 a <https://schema.org/PropertyValue>;
+_:t-1668259897680-n16 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -1887,89 +1639,85 @@ _:t-1668091856467-n16 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP01032r001> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01032#sequence-location.810_969>;
-  <https://schema.org/additionalProperty> _:t-1668091856467-n16;
+  <https://schema.org/additionalProperty> _:t-1668259897680-n16;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:8576127> .
 
-_:t-1668091856467-n24 a <https://schema.org/PropertyValue>;
+_:t-1668259897680-n24 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0060090> .
 
 <https://disprot.org/DP01032r002> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01032#sequence-location.810_969>;
-  <https://schema.org/additionalProperty> _:t-1668091856467-n24;
+  <https://schema.org/additionalProperty> _:t-1668259897680-n24;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:8576127> .
 
-_:t-1668091856467-n32 a <https://schema.org/PropertyValue>;
+_:t-1668259897680-n32 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP01032r003> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01032#sequence-location.810_969>;
-  <https://schema.org/additionalProperty> _:t-1668091856467-n32;
+  <https://schema.org/additionalProperty> _:t-1668259897680-n32;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:8576127> .
 
-_:t-1668091856467-n40 a <https://schema.org/PropertyValue>;
+_:t-1668259897680-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0060090> .
 
 <https://disprot.org/DP01032r004> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01032#sequence-location.810_969>;
-  <https://schema.org/additionalProperty> _:t-1668091856467-n40;
+  <https://schema.org/additionalProperty> _:t-1668259897680-n40;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:8576127> .
 
-_:t-1668091856467-n48 a <https://schema.org/PropertyValue>;
+_:t-1668259897680-n48 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP01032r005> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01032#sequence-location.810_969>;
-  <https://schema.org/additionalProperty> _:t-1668091856467-n48;
+  <https://schema.org/additionalProperty> _:t-1668259897680-n48;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:8576127> .
 
-_:t-1668091856467-n56 a <https://schema.org/PropertyValue>;
+_:t-1668259897680-n56 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0060090> .
 
 <https://disprot.org/DP01032r006> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP01032#sequence-location.810_969>;
-  <https://schema.org/additionalProperty> _:t-1668091856467-n56;
+  <https://schema.org/additionalProperty> _:t-1668259897680-n56;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:8576127> .
 
 <https://mobidb.org/P04972#sequence-location.1_55> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 55 .
 
-_:t-1668091856477-n7 a <https://schema.org/PropertyValue>;
+_:t-1668259897688-n7 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://mobidb.org/P04972#prediction-disorder-mobidb_lite.1_55> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://mobidb.org/P04972#sequence-location.1_55>;
-  <https://schema.org/additionalProperty> _:t-1668091856477-n7;
+  <https://schema.org/additionalProperty> _:t-1668259897688-n7;
   <https://schema.org/description> "Protein disordered region predicted by MobiDB-lite" .
-
-_:t-1668091856480-n4 a <https://schema.org/DefinedTerm>;
-  <https://schema.org/inDefinedTermSet> _:t-1668091856480-n5;
-  <https://schema.org/termCode> "9606" .
 
 <https://disprot.org/DP02206#sequence-location.1_51> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 1;
   <https://schema.org/rangeEnd> 51 .
 
-_:t-1668091856480-n10 a <https://schema.org/PropertyValue>;
+_:t-1668259897690-n10 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Protein disorder content";
   <https://schema.org/value> 6.274509803921569E-1;
   <https://schema.org/propertyID> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499> .
 
 <https://disprot.org/DP02206#disorder-content> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP02206#sequence-location.1_51>;
-  <https://schema.org/additionalProperty> _:t-1668091856480-n10 .
+  <https://schema.org/additionalProperty> _:t-1668259897690-n10 .
 
 <https://disprot.org/DP02206#sequence-location.20_51> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 20;
   <https://schema.org/rangeEnd> 51 .
 
-_:t-1668091856480-n16 a <https://schema.org/PropertyValue>;
+_:t-1668259897690-n16 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -1977,14 +1725,14 @@ _:t-1668091856480-n16 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP02206r001> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP02206#sequence-location.20_51>;
-  <https://schema.org/additionalProperty> _:t-1668091856480-n16;
+  <https://schema.org/additionalProperty> _:t-1668259897690-n16;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:9923693> .
 
 <https://disprot.org/DP02206#sequence-location.20_43> a <https://schema.org/SequenceRange>;
   <https://schema.org/rangeStart> 20;
   <https://schema.org/rangeEnd> 43 .
 
-_:t-1668091856480-n24 a <https://schema.org/PropertyValue>;
+_:t-1668259897690-n24 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -1992,10 +1740,10 @@ _:t-1668091856480-n24 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP02206r002> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP02206#sequence-location.20_43>;
-  <https://schema.org/additionalProperty> _:t-1668091856480-n24;
+  <https://schema.org/additionalProperty> _:t-1668259897690-n24;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:9433185> .
 
-_:t-1668091856480-n32 a <https://schema.org/PropertyValue>;
+_:t-1668259897690-n32 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
@@ -2003,16 +1751,16 @@ _:t-1668091856480-n32 a <https://schema.org/PropertyValue>;
 
 <https://disprot.org/DP02206r003> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP02206#sequence-location.20_43>;
-  <https://schema.org/additionalProperty> _:t-1668091856480-n32;
+  <https://schema.org/additionalProperty> _:t-1668259897690-n32;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:26914439> .
 
-_:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
+_:t-1668259897690-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/name> "Term";
   <https://schema.org/value> <https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076> .
 
 <https://disprot.org/DP02206r004> a <https://schema.org/SequenceAnnotation>;
   <https://schema.org/sequenceLocation> <https://disprot.org/DP02206#sequence-location.20_51>;
-  <https://schema.org/additionalProperty> _:t-1668091856480-n40;
+  <https://schema.org/additionalProperty> _:t-1668259897690-n40;
   <https://schema.org/subjectOf> <https://identifiers.org/pubmed:9923693> .
 
 <https://idpcentral.org/id/P42212> a <https://schema.org/Protein>;
@@ -2046,7 +1794,7 @@ _:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
     <https://proteinensemble.org/PED00026#P12296-A-1>;
   <https://schema.org/hasBioPolymerSequence> "MATTMEQEICAHSMTFEECPKCSALQYRNGFYLLKYDEEWYPEELLTDGEDDVFDPDLDMEVVFETQGNSTSSDKNNSSSEGNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLADQNTEEMENLSDRVSQDTAGNTVTNTQSTVGRLVGYGTVHDGEHPASCADTASEKILAVERYYTFKVNDWTSTQKPFEYIRIPLPHVLSGEDGGVFGATLRRHYLVKTGWRVQVQCNASQFHAGSLLVFMAPEYPTLDVFAMDNRWSKDNLPNGTRTQTNRKGPFAMDHQNFWQWTLYPHQFLNLRTNTTVDLEVPYVNIAPTSSWTQHASWTLVIAVVAPLTYSTGASTSLDITASIQPVRPVFNGLRHEVLSRQSPIPVTIREHAGTWYSTLPDSTVPIYGKTPVAPANYMVGEYKDFLEIAQIPTFIGNKVPNAVPYIEASNTAVKTQPLAVYQVTLSCSCLANTFLAALSRNFAQYRGSLVYTFVFTGTAMMKGKFLIAYTPPGAGKPTSRDQAMQATYAIWDLGLNSSYSFTVPFISPTHFRMVGTDQANITNVDGWVTVWQLTPLTYPPGCPTSAKILTMVSAGKDFSLKMPISPAPWSPQGVENAEKGVTENTDATADFVAQPVYLPENQTKVAFFYDRSSPIGAFAVKSGSLESGFAPFSNKACPNSVILTPGPQFDPAYDQLRPQRLTEIWGNGNEETSEVFPLKTKQDYSFCLFSPFVYYKCDLEVTLSPHTSGAHGLLVRWCPTGTPTKPTTQVLHEVSSLSEGRTPQVYSAGPGTSNQISFVVPYNSPLSVLPAVWYNGHKRFDNTGDLGIAPNSDFGTLFFAGTKPDIKFTVYLRYKNMRVFCPRPTVFFPWPTSGDKIDMTPRAGVLMLESPNPLDVSKTYPTLHILLQFNHRGLEARIFRHGQLWAETHAEVVLRSKTKQISFLSNGSYPSMDATTPLNPWKSTYQAVLRAEPHRVTMDVYHKRIRPFRLPLVQKEWRTCEENVFGLYHVFETHYAGYFSDLLIHDVETNPGPFTFKPRQRPVFQTQGAAVSSMAQTLLPNDLASKAMGSAFTALLDANEDAQKAMKIIKTLSSLSDAWENVKGTLNNPEFWKQLLSRCVQLIAGMTIAVMHPDPLTLLCLGVLTAAEITSQTSLCEEIAAKFKTIFTTPPPRFPVISLFQQQSPLKQVNDVFSLAKNLDWAVKTVEKVVDWFGTWVAQEEREQTLDQLLQRFPEHAKRISDLRNGMAAYVECKESFDFFEKLYNQAVKEKRTGIAAVCEKFRQKHDHATARCEPVVIVLRGDAGQGKSLSSQIIAQAVSKTIFGRQSVYSLPPDSDFFDGYENQFAAIMDDLGQNPDGSDFTTFCQMVSTTNLLPNMASLERKGTPFTSQLVVATTNLPEFRPVTIAHYPAVERRITFDYSVSAGPVCSKTEAGCKVLDVERAFRPTGDAPLPCFQNNCLFLEKAGLQFRDNRSKEILSLVDVIERAVTRIERKKKVLTAVQTLVAQGPVDEVSFYSVVQQLKARQEATDEQLEELQEAFARVQERSSVFSDWMKISAMLCAATLALTQVVKMAKAVKQMVRPDLVRVQLDEQEQGPYNETTRIKPKTLQLLDVQGPNPTMDFEKFVAKFVTAPIGFVYPTGVSTQTCLLVKGRTLAVNRHMAESDWTSIVVRGVSHTRSSVKIIAIAKAGKETDVSFIRLSSGPLFRDNTSKFVKASDVLPHSSSPLIGIMNVDIPMMYTGTFLKAGVSVPVETGQTFNHCIHYKANTRKGWCGSAILADLGGSKKILGFHSAGSMGVAAASIISQEMIDAVVQAFEPQGALERLPDGPRIHVPRKTALRPTVARQVFQPAFAPAVLSKFDPRTDADVDEVAFSKHTSNQETLPPVFRMVAREYANRVFALLGRDNGRLSVKQALDGLEGMDPMDKNTSPGLPYTTLGMRRTDVVDWETATLIPFAAERLEKMNNKDFSDIVYQTFLKDELRPIEKVQAAKTRIVDVPPFEHCILGRQLLGKFASKFQTQPGLELGSAIGCDPDVHWTAFGVAMQGFERVYDVDYSNFDSTHSVAVFRLLAEEFFSEENGFDPLVKDYLESLAISKHAYEEKRYLITGGLPSGCAATSMLNTIMNNIIIRAGLYLTYKNFEFDDVKVLSYGDDLLVATNYQLNFDRVRTSLAKTGYKITPANKTSTFPLESTLEDVVFLKRKFKKEGPLYRPVMNREALEAMLSYYRPGTLSEKLTSITMLAVHSGKQEYDRLFAPFREVGVIVPTFESVEYRWRSLFW",
     "MATTMEQEICAHSMTFEECPKCSALQYRNGFYLLKYDEEWYPEELLTDGEDDVFDPDLDMEVVFETQ";
-  <https://schema.org/taxonomicRange> _:t-1668091856265-n4;
+  <https://schema.org/taxonomicRange> _:t-1668259897535-n4;
   <http://www.w3.org/2002/07/owl#sameAs> "http://purl.uniprot.org/uniprot/P12296" .
 
 <https://idpcentral.org/id/P21758> a <https://schema.org/Protein>;
@@ -2056,7 +1804,7 @@ _:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/identifier> "https://identifiers.org/disprot:DP00246";
   <https://schema.org/sameAs> <https://disprot.org/DP00246>, "http://purl.uniprot.org/uniprot/P21758";
   <https://schema.org/hasBioPolymerSequence> "MAQWDDFPDQQEDTDSCTESVKFDARSVTALLPPHPKNGPTLQERMKSYKTALITLYLIVFVVLVPIIGIVAAQLLKWETKNCTVGSVNADISPSPEGKGNGSEDEMRFREAVMERMSNMESRIQYLSDNEANLLDAKNFQNFSITTDQRFNDVLFQLNSLLSSIQEHENIIGDISKSLVGLNTTVLDLQFSIETLNGRVQENAFKQQEEMRKLEERIYNASAEIKSLDEKQVYLEQEIKGEMKLLNNITNDLRLKDWEHSQTLKNITLLQGPPGPPGEKGDRGPPGQNGIPGFPGLIGTPGLKGDRGISGLPGVRGFPGPMGKTGKPGLNGQKGQKGEKGSGSMQRQSNTVRLVGGSGPHEGRVEIFHEGQWGTVCDDRWELRGGLVVCRSLGYKGVQSVHKRAYFGKGTGPIWLNEVFCFGKESSIEECRIRQWGVRACSHDEDAGVTCTT";
-  <https://schema.org/taxonomicRange> _:t-1668091856282-n4;
+  <https://schema.org/taxonomicRange> _:t-1668259897550-n4;
   <http://www.w3.org/2002/07/owl#sameAs> "http://purl.uniprot.org/uniprot/P21758" .
 
 <https://idpcentral.org/id/P11233> a <https://schema.org/Protein>;
@@ -2067,7 +1815,7 @@ _:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/identifier> "https://identifiers.org/disprot:DP00581";
   <https://schema.org/sameAs> <https://disprot.org/DP00581>, "http://purl.uniprot.org/uniprot/P11233";
   <https://schema.org/hasBioPolymerSequence> "MAANKPKGQNSLALHKVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVFFDLMREIRARKMEDSKEKNGKKKRKSLAKRIRERCCIL";
-  <https://schema.org/taxonomicRange> _:t-1668091856288-n4;
+  <https://schema.org/taxonomicRange> _:t-1668259897554-n4;
   <http://www.w3.org/2002/07/owl#sameAs> "http://purl.uniprot.org/uniprot/P11233" .
 
 <https://idpcentral.org/id/P27177> a <https://schema.org/Protein>;
@@ -2077,7 +1825,7 @@ _:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/identifier> "https://identifiers.org/disprot:DP01663";
   <https://schema.org/sameAs> <https://disprot.org/DP01663>, "http://purl.uniprot.org/uniprot/P27177";
   <https://schema.org/hasBioPolymerSequence> "MARLLTTCCLLALLLAACTDVALSKKGKGKPSGGGWGAGSHRQPSYPRQPGYPHNPGYPHNPGYPHNPGYPHNPGYPHNPGYPQNPGYPHNPGYPGWGQGYNPSSGGSYHNQKPWKPPKTNFKHVAGAAAAGAVVGGLGGYAMGRVMSGMNYHFDSPDEYRWWSENSARYPNRVYYRDYSSPVPQDVFVADCFNITVTEYSIGPAAKKNTSEAVAAANQTEVEMENKVVTKVIREMCVQQYREYRLASGIQLHPADTWLAVLLLLLTTLFAMH";
-  <https://schema.org/taxonomicRange> _:t-1668091856303-n4;
+  <https://schema.org/taxonomicRange> _:t-1668259897560-n4;
   <http://www.w3.org/2002/07/owl#sameAs> "http://purl.uniprot.org/uniprot/P27177" .
 
 <https://idpcentral.org/id/A7VJC2> a <https://schema.org/Protein>;
@@ -2096,7 +1844,7 @@ _:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/identifier> "https://identifiers.org/disprot:DP01389";
   <https://schema.org/sameAs> <https://disprot.org/DP01389>, "http://purl.uniprot.org/uniprot/P84233";
   <https://schema.org/hasBioPolymerSequence> "MARTKQTARKSTGGKAPRKQLATKAARKSAPATGGVKKPHRYRPGTVALREIRRYQKSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEASEAYLVGLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA";
-  <https://schema.org/taxonomicRange> _:t-1668091856332-n4;
+  <https://schema.org/taxonomicRange> _:t-1668259897576-n4;
   <http://www.w3.org/2002/07/owl#sameAs> "http://purl.uniprot.org/uniprot/P84233" .
 
 <https://idpcentral.org/id/P32776> a <https://schema.org/Protein>;
@@ -2107,7 +1855,7 @@ _:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/identifier> "https://identifiers.org/disprot:DP01638";
   <https://schema.org/sameAs> <https://disprot.org/DP01638>, "http://purl.uniprot.org/uniprot/P32776";
   <https://schema.org/hasBioPolymerSequence> "MSHSGAAIFEKVSGIIAINEDVSPAELTWRSTDGDKVHTVVLSTIDKLQATPASSEKMMLRLIGKVDESKKRKDNEGNEVVPKPQRHMFSFNNRTVMDNIKMTLQQIISRYKDADIYEEKRRREESAQHTETPMSSSSVTAGTPTPHLDTPQLNNGAPLINTAKLDDSLSKEKLLTNLKLQQSLLKGNKVLMKVFQETVINAGLPPSEFWSTRIPLLRAFALSTSQKVGPYNVLSTIKPVASSENKVNVNLSREKILNIFENYPIVKKAYTDNVPKNFKEPEFWARFFSSKLFRKLRGEKIMQNDRGDVIIDRYLTLDQEFDRKDDDMLLHPVKKIIDLDGNIQDDPVVRGNRPDFTMQPGVDINGNSDGTVDILKGMNRLSEKMIMALKNEYSRTNLQNKSNITNDEEDEDNDERNELKIDDLNESYKTNYAIIHLKRNAHEKTTDNDAKSSADSIKNADLKVSNQQMLQQLSLVMDNLINKLDLNQVVPNNEVSNKINKRVITAIKINAKQAKHNNVNSALGSFVDNTSQANELEVKSTLPIDLLESCRMLHTTCCEFLKHFYIHFQSGEQKQASTVKKLYNHLKDCIEKLNELFQDVLNGDGESMSNTCTAYLKPVLNSITLATHKYDEYFNEYNNNSN";
-  <https://schema.org/taxonomicRange> _:t-1668091856336-n4;
+  <https://schema.org/taxonomicRange> _:t-1668259897579-n4;
   <http://www.w3.org/2002/07/owl#sameAs> "http://purl.uniprot.org/uniprot/P32776" .
 
 <https://idpcentral.org/id/A0A1Z3GD08> a <https://schema.org/Protein>;
@@ -2122,7 +1870,7 @@ _:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/identifier> "https://identifiers.org/disprot:DP01789";
   <https://schema.org/sameAs> <https://disprot.org/DP01789>, "http://purl.uniprot.org/uniprot/A0A1Z3GD08";
   <https://schema.org/hasBioPolymerSequence> "MAEEKHHHLFHHKEGEDFQPAADGGVDTYGYSTETVVTATGNDGEYERITKEEKHHKHKEHLGEMGAAAAGAFALYEKHEAKKDPEHAHKHKIEEEVAAAAAVGAGGFVFHEHHEKKQDHKEAKEASGEKKHHLFG";
-  <https://schema.org/taxonomicRange> _:t-1668091856345-n4;
+  <https://schema.org/taxonomicRange> _:t-1668259897585-n4;
   <http://www.w3.org/2002/07/owl#sameAs> "http://purl.uniprot.org/uniprot/A0A1Z3GD08" .
 
 <https://idpcentral.org/id/Q95V77> a <https://schema.org/Protein>;
@@ -2133,7 +1881,7 @@ _:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/identifier> "https://identifiers.org/disprot:DP00186";
   <https://schema.org/sameAs> <https://disprot.org/DP00186>, "http://purl.uniprot.org/uniprot/Q95V77";
   <https://schema.org/hasBioPolymerSequence> "MSSQQNQNRQGEQQEQGYMEAAKEKVVNAWESTKETLSSTAQAAAEKTAEFRDSAGETIRDLTGQAQEKGQEFKERAGEKAEETKQRAGEKMDETKQRAGEMRENAGQKMEEYKQQGKGKAEELRDTAAEKLHQAGEKVKGRD";
-  <https://schema.org/taxonomicRange> _:t-1668091856368-n4;
+  <https://schema.org/taxonomicRange> _:t-1668259897605-n4;
   <http://www.w3.org/2002/07/owl#sameAs> "http://purl.uniprot.org/uniprot/Q95V77" .
 
 <https://idpcentral.org/id/P21333> a <https://schema.org/Protein>;
@@ -2143,7 +1891,7 @@ _:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/identifier> "https://identifiers.org/disprot:DP01950";
   <https://schema.org/sameAs> <https://disprot.org/DP01950>, "http://purl.uniprot.org/uniprot/P21333";
   <https://schema.org/hasBioPolymerSequence> "MSSSHSRAGQSAAGAAPGGGVDTRDAEMPATEKDLAEDAPWKKIQQNTFTRWCNEHLKCVSKRIANLQTDLSDGLRLIALLEVLSQKKMHRKHNQRPTFRQMQLENVSVALEFLDRESIKLVSIDSKAIVDGNLKLILGLIWTLILHYSISMPMWDEEEDEEAKKQTPKQRLLGWIQNKLPQLPITNFSRDWQSGRALGALVDSCAPGLCPDWDSWDASKPVTNAREAMQQADDWLGIPQVITPEEIVDPNVDEHSVMTYLSQFPKAKLKPGAPLRPKLNPKKARAYGPGIEPTGNMVKKRAEFTVETRSAGQGEVLVYVEDPAGHQEEAKVTANNDKNRTFSVWYVPEVTGTHKVTVLFAGQHIAKSPFEVYVDKSQGDASKVTAQGPGLEPSGNIANKTTYFEIFTAGAGTGEVEVVIQDPMGQKGTVEPQLEARGDSTYRCSYQPTMEGVHTVHVTFAGVPIPRSPYTVTVGQACNPSACRAVGRGLQPKGVRVKETADFKVYTKGAGSGELKVTVKGPKGEERVKQKDLGDGVYGFEYYPMVPGTYIVTITWGGQNIGRSPFEVKVGTECGNQKVRAWGPGLEGGVVGKSADFVVEAIGDDVGTLGFSVEGPSQAKIECDDKGDGSCDVRYWPQEAGEYAVHVLCNSEDIRLSPFMADIRDAPQDFHPDRVKARGPGLEKTGVAVNKPAEFTVDAKHGGKAPLRVQVQDNEGCPVEALVKDNGNGTYSCSYVPRKPVKHTAMVSWGGVSIPNSPFRVNVGAGSHPNKVKVYGPGVAKTGLKAHEPTYFTVDCAEAGQGDVSIGIKCAPGVVGPAEADIDFDIIRNDNDTFTVKYTPRGAGSYTIMVLFADQATPTSPIRVKVEPSHDASKVKAEGPGLSRTGVELGKPTHFTVNAKAAGKGKLDVQFSGLTKGDAVRDVDIIDHHDNTYTVKYTPVQQGPVGVNVTYGGDPIPKSPFSVAVSPSLDLSKIKVSGLGEKVDVGKDQEFTVKSKGAGGQGKVASKIVGPSGAAVPCKVEPGLGADNSVVRFLPREEGPYEVEVTYDGVPVPGSPFPLEAVAPTKPSKVKAFGPGLQGGSAGSPARFTIDTKGAGTGGLGLTVEGPCEAQLECLDNGDGTCSVSYVPTEPGDYNINILFADTHIPGSPFKAHVVPCFDASKVKCSGPGLERATAGEVGQFQVDCSSAGSAELTIEICSEAGLPAEVYIQDHGDGTHTITYIPLCPGAYTVTIKYGGQPVPNFPSKLQVEPAVDTSGVQCYGPGIEGQGVFREATTEFSVDARALTQTGGPHVKARVANPSGNLTETYVQDRGDGMYKVEYTPYEEGLHSVDVTYDGSPVPSSPFQVPVTEGCDPSRVRVHGPGIQSGTTNKPNKFTVETRGAGTGGLGLAVEGPSEAKMSCMDNKDGSCSVEYIPYEAGTYSLNVTYGGHQVPGSPFKVPVHDVTDASKVKCSGPGLSPGMVRANLPQSFQVDTSKAGVAPLQVKVQGPKGLVEPVDVVDNADGTQTVNYVPSREGPYSISVLYGDEEVPRSPFKVKVLPTHDASKVKASGPGLNTTGVPASLPVEFTIDAKDAGEGLLAVQITDPEGKPKKTHIQDNHDGTYTVAYVPDVTGRYTILIKYGGDEIPFSPYRVRAVPTGDASKCTVTVSIGGHGLGAGIGPTIQIGEETVITVDTKAAGKGKVTCTVCTPDGSEVDVDVVENEDGTFDIFYTAPQPGKYVICVRFGGEHVPNSPFQVTALAGDQPSVQPPLRSQQLAPQYTYAQGGQQTWAPERPLVGVNGLDVTSLRPFDLVIPFTIKKGEITGEVRMPSGKVAQPTITDNKDGTVTVRYAPSEAGLHEMDIRYDNMHIPGSPLQFYVDYVNCGHVTAYGPGLTHGVVNKPATFTVNTKDAGEGGLSLAIEGPSKAEISCTDNQDGTCSVSYLPVLPGDYSILVKYNEQHVPGSPFTARVTGDDSMRMSHLKVGSAADIPINISETDLSLLTATVVPPSGREEPCLLKRLRNGHVGISFVPKETGEHLVHVKKNGQHVASSPIPVVISQSEIGDASRVRVSGQGLHEGHTFEPAEFIIDTRDAGYGGLSLSIEGPSKVDINTEDLEDGTCRVTYCPTEPGNYIINIKFADQHVPGSPFSVKVTGEGRVKESITRRRRAPSVANVGSHCDLSLKIPEISIQDMTAQVTSPSGKTHEAEIVEGENHTYCIRFVPAEMGTHTVSVKYKGQHVPGSPFQFTVGPLGEGGAHKVRAGGPGLERAEAGVPAEFSIWTREAGAGGLAIAVEGPSKAEISFEDRKDGSCGVAYVVQEPGDYEVSVKFNEEHIPDSPFVVPVASPSGDARRLTVSSLQESGLKVNQPASFAVSLNGAKGAIDAKVHSPSGALEECYVTEIDQDKYAVRFIPRENGVYLIDVKFNGTHIPGSPFKIRVGEPGHGGDPGLVSAYGAGLEGGVTGNPAEFVVNTSNAGAGALSVTIDGPSKVKMDCQECPEGYRVTYTPMAPGSYLISIKYGGPYHIGGSPFKAKVTGPRLVSNHSLHETSSVFVDSLTKATCAPQHGAPGPGPADASKVVAKGLGLSKAYVGQKSSFTVDCSKAGNNMLLVGVHGPRTPCEEILVKHVGSRLYSVSYLLKDKGEYTLVVKWGDEHIPGSPYRVVVP";
-  <https://schema.org/taxonomicRange> _:t-1668091856378-n4;
+  <https://schema.org/taxonomicRange> _:t-1668259897611-n4;
   <http://www.w3.org/2002/07/owl#sameAs> "http://purl.uniprot.org/uniprot/P21333" .
 
 <https://idpcentral.org/id/P06491> a <https://schema.org/Protein>;
@@ -2153,7 +1901,7 @@ _:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/identifier> "https://identifiers.org/disprot:DP03498";
   <https://schema.org/sameAs> <https://disprot.org/DP03498>, "http://purl.uniprot.org/uniprot/P06491";
   <https://schema.org/hasBioPolymerSequence> "MAAPNRDPPGYRYAAAMVPTGSLLSTIEVASHRRLFDFFSRVRSDANSLYDVEFDALLGSYCNTLSLVRFLELGLSVACVCTKFPELAYMNEGRVQFEVHQPLIARDGPHPIEQPTHNYMTKIIDRRALNAAFSLATEAIALLTGEALDGTGIGAHRQLRAIQQLARNVQAVLGAFERGTADQMLHVLLEKAPPLALLLPMQRYLDNGRLATRVARATLVAELKRSFCETSFFLGKAGHRREAVEAWLVDLTTATQPSVAVPRLTHADTRGRPVDGVLVTTAPIKQRLLQSFLKVEDTEADVPVTYGEMVLNGANLVTALVMGKAVRSLDDVGRHLLEMQEEQLDLNRQTLDELESAPQTTRVRADLVSIGEKLVFLEALEKRIYAATNVPYPLVGAMDLTFVLPLGLFNPVMERFAAHAGDLVPAPGHPDPRAFPPRQLFFWGKDRQVLRLSLEHAIGTVCHPSLMNVDAAVGGLNRDPVEAANPYGAYVAAPAGPAADMQQLFLNAWGQRLAHGRVRWVAEGQMTPEQFMQPDNANLALELHPAFDFFVGVADVELPGGDVPPAGPGEIQATWRVVNGNLPLALCPAAFRDARGLELGVGRHAMAPATIAAVRGAFDDRNYPAVFYLLQAAIHGSEHVFCALARLVVQCITSYWNNTRCAAFVNDYSLVSYVVTYLGGDLPEECMAVYRDLVAHVEALAQLVDDFTLTGPELGGQAQAELNHLMRDPALLPPLVWDCDALMRRAALDRHRDCRVSAGGHDPVYAAACNVATADFNRNDGQLLHNTQARAADAADDRPHRGADWTVHHKIYYYVMVPAFSRGRCCTAGVRFDRVYATLQNMVVPEIAPGEECPSDPVTDPAHPLHPANLVANTVNAMFHNGRVVVDGPAMLTLQVLAHNMAERTTALLCSAAPDAGANTASTTNMRIFDGALHAGILLMAPQHLDHTIQNGDYFYPLPVHALFAGADHVANAPNFPPALRDLSRQVPLVPPALGANYFSSIRQPVVQHVRESAAGENALTYALMAGYFKISPVALHHQLKTGLHPGFGFTVVRQDRFVTENVLFSERASEAYFLGQLQVARHETGGGVNFTLTQPRANVDLGVGYTAVVATATVRNPVTDMGNLPQNFYLGRGAPPLLDNAAAVYLRNAVVAGNRLGPAQPVPVFGCAQVPRRAGMDHGQDAVCEFIATPVSTDVNYFRRPCNPRGRAAGGVYAGDKEGDVTALMYDHGQSDPSRAFAATANPWASQRFSYGDLLYNGAYHLNGASPVLSPCFKFFTSADIAAKHRCLERLIVETGSAVSTATAASDVQFKRPPGCRELVEDPCGLFQEAYPLTCASDPALLRSARNGEAHARETHFAQYLVYDASPLKGLAL";
-  <https://schema.org/taxonomicRange> _:t-1668091856383-n4;
+  <https://schema.org/taxonomicRange> _:t-1668259897615-n4;
   <http://www.w3.org/2002/07/owl#sameAs> "http://purl.uniprot.org/uniprot/P06491" .
 
 <https://idpcentral.org/id/P04972> a <https://schema.org/Protein>;
@@ -2170,7 +1918,7 @@ _:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/sameAs> <https://disprot.org/DP00347>, "http://purl.uniprot.org/uniprot/P04972",
     <https://mobidb.org/P04972>;
   <https://schema.org/hasBioPolymerSequence> "MNLEPPKAEIRSATRVMGGPVTPRKGPPKFKQRQTRQFKSKPPKKGVQGFGDDIPGMEGLGTDITVICPWEAFNHLELHELAQYGII";
-  <https://schema.org/taxonomicRange> _:t-1668091856388-n4;
+  <https://schema.org/taxonomicRange> _:t-1668259897619-n4;
   <http://www.w3.org/2002/07/owl#sameAs> "http://purl.uniprot.org/uniprot/P04972" .
 
 <https://idpcentral.org/id/P04370-5> a <https://schema.org/Protein>;
@@ -2180,7 +1928,7 @@ _:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/identifier> "https://identifiers.org/disprot:DP01101";
   <https://schema.org/sameAs> <https://disprot.org/DP01101>, "http://purl.uniprot.org/uniprot/P04370-5";
   <https://schema.org/hasBioPolymerSequence> "MASQKRPSQRSKYLATASTMDHARHGFLPRHRDTGILDSIGRFFSGDRGAPKRGSGKDSHTRTTHYGSLPQKSQHGRTQDENPVVHFFKNIVTPRTPPPSQGKGRGLSLSRFSWGAEGQKPGFGYGGRASDYKSAHKGFKGAYDAQGTLSKIFKLGGRDSRSGSPMARR";
-  <https://schema.org/taxonomicRange> _:t-1668091856411-n4;
+  <https://schema.org/taxonomicRange> _:t-1668259897639-n4;
   <http://www.w3.org/2002/07/owl#sameAs> "http://purl.uniprot.org/uniprot/P04370-5" .
 
 <https://idpcentral.org/id/Q9SUM3> a <https://schema.org/Protein>;
@@ -2190,7 +1938,7 @@ _:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/identifier> "https://identifiers.org/disprot:DP02644";
   <https://schema.org/sameAs> <https://disprot.org/DP02644>, "http://purl.uniprot.org/uniprot/Q9SUM3";
   <https://schema.org/hasBioPolymerSequence> "MSSSSSSSTSMIDLMAAIIKGEPVIVSDPANASAYESVAAELSSMLIENRQFAMIVTTSIAVLIGCIVMLVWRRSGSGNSKRVEPLKPLVIKPREEEIDDGRKKVTIFFGTQTGTAEGFAKALGEEAKARYEKTRFKIVDLDDYAADDDEYEEKLKKEDVAFFFLATYGDGEPTDNAARFYKWFTEGNDRGEWLKNLKYGVFGLGNRQYEHFNKVAKVVDDILVEQGAQRLVQVGLGDDDQCIEDDFTAWREALWPELDTILREEGDTAVATPYTAAVLEYRVSIHDSEDAKFNDINMANGNGYTVFDAQHPYKANVAVKRELHTPESDRSCIHLEFDIAGSGLTYETGDHVGVLCDNLSETVDEALRLLDMSPDTYFSLHAEKEDGTPISSSLPPPFPPCNLRTALTRYACLLSSPKKSALVALAAHASDPTEAERLKHLASPAGKDEYSKWVVESQRSLLEVMAEFPSAKPPLGVFFAGVAPRLQPRFYSISSSPKIAETRIHVTCALVYEKMPTGRIHKGVCSTWMKNAVPYEKSENCSSAPIFVRQSNFKLPSDSKVPIIMIGPGTGLAPFRGFLQERLALVESGVELGPSVLFFGCRNRRMDFIYEEELQRFVESGALAELSVAFSREGPTKEYVQHKMMDKASDIWNMISQGAYLYVCGDAKGMARDVHRSLHTIAQEQGSMDSTKAEGFVKNLQTSGRYLRDVW";
-  <https://schema.org/taxonomicRange> _:t-1668091856417-n4;
+  <https://schema.org/taxonomicRange> _:t-1668259897643-n4;
   <http://www.w3.org/2002/07/owl#sameAs> "http://purl.uniprot.org/uniprot/Q9SUM3" .
 
 <https://idpcentral.org/id/Q9IK91> a <https://schema.org/Protein>;
@@ -2206,7 +1954,7 @@ _:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/identifier> "https://identifiers.org/disprot:DP00699";
   <https://schema.org/sameAs> <https://disprot.org/DP00699>, "http://purl.uniprot.org/uniprot/Q9IK91";
   <https://schema.org/hasBioPolymerSequence> "MDKLELVNDGLNIIDFIQKNQKEIQKTYGRSSIQQPSIKDQTKAWEDFLQCTSGESEQVEGGMSKDDGDVERRNLEDLSSTSPTDGTIGKRVSNTRDWAEGSDDIQLDPVVTDVVYHDHGGECTGYGFTSSPERGWSDYTSGANNGNVCLVSDAKMLSYAPEIAVSKEDRETDLVHLENKLSTTGLNPTAVPFTLRNLSDPAKDSPVIAEHYYGLGVKEQNVGPQTSRNVNLDSIKLYTSDDEEADQLEFEDEFAGSSSEVIVGISPEDEEPSSVGGKPNESIGRTIEGQSIRDNLQAKDNKSTDVPGAGPKDSAVKEEPPQKRLPMLAEEFECSGSEDPIIRELLKENSLINCQQGKDAQPPYHWSIERSISPDKTEIVNGAVQTADRQRPGTPMPKSRGIPIKKGTDAKYPSAGTENVPGSKSGATRHVRGSPPYQEGKSVNAENVQLNASTAVKETDKSEVNPVDDNDSLDDKYIMPSDDFSNTFFPHDTDRLNYHADHLGDYDLETLCEESVLMGVINSIKLINLDMRLNHIEEQVKEIPKIINKLESIDRVLAKTNTALSTIEGHLVSMMIMIPGKGKGERKGKNNPELKPVIGRDILEQQSLFSFDNVKNFRDGSLTNEPYGAAVQLREDLILPELNFEETNASQFVPMADDSSRDVIKTLIRTHIKDRELRSELIGYLNKAENDEEIQEIANTVNDIIDGNI";
-  <https://schema.org/taxonomicRange> _:t-1668091856424-n4;
+  <https://schema.org/taxonomicRange> _:t-1668259897649-n4;
   <http://www.w3.org/2002/07/owl#sameAs> "http://purl.uniprot.org/uniprot/Q9IK91" .
 
 <https://idpcentral.org/id/P42512> a <https://schema.org/Protein>;
@@ -2218,7 +1966,7 @@ _:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/identifier> "https://identifiers.org/disprot:DP00176";
   <https://schema.org/sameAs> <https://disprot.org/DP00176>, "http://purl.uniprot.org/uniprot/P42512";
   <https://schema.org/hasBioPolymerSequence> "MKTETKVIKGRQGIARNRHTPLCLGLLLALSPLAAAVADARKDGETELPDMVISGESTSATQPPGVTTLGKVPLKPRELPQSASVIDHERLEQQNLFSLDEAMQQATGVTVQPFQLLTTAYYVRGFKVDSFELDGVPALLGNTASSPQDMAIYERVEILRGSNGLLHGTGNPAATVNLVRKRPQREFAASTTLSAGRWDRYRAEVDVGGPLSASGNVRGRAVAAYEDRDYFYDVADQGTRLLYGVTEFDLSPDTLLTVGAQYQHIDSITNMAGVPMAKDGSNLGLSRDTYLDVDWDRFKWDTYRAFGSLEQQLGGGWKGKVSAEYQEADSRLRYAGSFGAIDPQTGDGGQLMGAAYKFKSIQRSLDANLNGPVRLFGLTHELLGGVTYAQGETRQDTARFLNLPNTPVNVYRWDPHGVPRPQIGQYTSPGTTTTTQKGLYALGRIKLAEPLTLVVGGRESWWDQDTPATRFKPGRQFTPYGGLIWDFARDWSWYVSYAEVYQPQADRQTWNSEPLSPVEGKTYETGIKGELADGRLNLSLAAFRIDLENNPQEDPDHPGPPNNPFYISGGKVRSQGFELEGTGYLTPYWSLSAGYTYTSTEYLKDSQNDSGTRYSTFTPRHLLRLWSNYDLPWQDRRWSVGGGLQAQSDYSVDYRGVSMRQGGYALVNMRLGYKIDEHWTAAVNVNNLFDRTYYQSLSNPNWNNRYGEPRSFNVSLRGAF";
-  <https://schema.org/taxonomicRange> _:t-1668091856446-n4;
+  <https://schema.org/taxonomicRange> _:t-1668259897665-n4;
   <http://www.w3.org/2002/07/owl#sameAs> "http://purl.uniprot.org/uniprot/P42512" .
 
 <https://idpcentral.org/id/P47110> a <https://schema.org/Protein>;
@@ -2229,7 +1977,7 @@ _:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/identifier> "https://identifiers.org/disprot:DP02847";
   <https://schema.org/sameAs> <https://disprot.org/DP02847>, "http://purl.uniprot.org/uniprot/P47110";
   <https://schema.org/hasBioPolymerSequence> "MDQKASYFINEKLFTEVKPVLFTDLIHHLKIGPSMAKKLMFDYYKQTTNAKYNCVVICCYKDQTIKIIHDLSNIPQQDSIIDCFIYAFNPMDSFIPYYDIIDQKDCLTIKNSYELKVSESSKIIERTKTLEEKSKPLVRPTARSKTTPEETTGRKSKSKDMGLRSTALLAKMKKDRDDKETSRQNELRKRKEENLQKINKQNPEREAQMKELNNLFVEDDLDTEEVNGGSKPNSPKETDSNDKDKNNDDLEDLLETTAEDSLMDVPKIQQTKPSETEHSKEPKSEEEPSSFIDEDGYIVTKRPATSTPPRKPSPVVKRALSSSKKQETPSSNKRLKKQGTLESFFKRKAK";
-  <https://schema.org/taxonomicRange> _:t-1668091856460-n4;
+  <https://schema.org/taxonomicRange> _:t-1668259897674-n4;
   <http://www.w3.org/2002/07/owl#sameAs> "http://purl.uniprot.org/uniprot/P47110" .
 
 <https://idpcentral.org/id/Q06556> a <https://schema.org/Protein>;
@@ -2240,7 +1988,7 @@ _:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/identifier> "https://identifiers.org/disprot:DP01032";
   <https://schema.org/sameAs> <https://disprot.org/DP01032>, "http://purl.uniprot.org/uniprot/Q06556";
   <https://schema.org/hasBioPolymerSequence> "MTNCKYKLRKLSIGLVSVGTMFMAAPVMGEDASQPTASVTTESPAIQTEEDQGSQAEALEEPTPAPQTSPSTVSAVPAEAAAMADEKGIAEAPAHEPAPKASVQAEAASPAGKAEATTNTGQPTNTEQARSRSKRAAEIAPQTIEVEKLEVDKENSSLTVKDGEKDKQLIKHRDGNQRDIFDISRDVKVNQDGTMDVTLTVKPKQIDEGAEVIVLLDTSQKMTETDFNTAKENIKKLVTTLTGTTDKEGKNVSHYNNRNSVRLIDFYRKVGESTDLSGWDAKKIDEKLNEVWKKAKDDYNGWGVDLQGAIHKAREIFNLDKEKRSGKRQHIVLFSQGESTFSYDIKDKSKMDKVAVEEPVTYSNPLFPWPFYFDTTTRTHNVVNDAKKLIDFLNKLGISQFNGAVDNVATVGNTLLGLGSFFGLKNPLDYISLADLETSKLNSEKFDYSRRVGEGYNFRSYFDREVDKVGFKKILVEKIKGNLKKFQPKQTDTWLSSLGLNSIKEKIQDWMIDKALDNLFYRRQYQFYNHNLSAQAEARMAREEGIKFYAVDVTEPERIAKEINSQKYSEAYTNHLKKKAEEARELAKKRNEKFDKYLKEMSESQKFFKDVEDPEKFKDILTELKVTETFEEKVSVNNSEQRKSNKEVEYKKASSNSSFLSFIFSSSTNESITWTLSKDKLQKALQSGETLTLEYKLKIHKDKFKLAPQTRSKRSLDTSENKKSVTEKVITSDVKYKINDKEVKGKELDDVSLTYSKETVRKPQVEPNVPDTPQEKPLTPLAPSEPSQPSIPETPLIPSEPSVPETSTPEGPTEGENNLGGQSEEITITEDSQSGMSGQNPGSGNETVVEDTQTSQEDIVLGGPGQVIDFTEDSQPGMSGNNSHTITEDSKPSQEDEVIIGGQGQVIDFTEDTQSGMSGDNSHTDGTVLEEDSKPSQEDEVIIGGQGQVIDFTEDTQTGMSGAGQVESPTITEETHKPEIIMGGQSDPIDMVEDTLPGMSGSNEATVVEEDTRPKLQFHFDNEEPVPATVPTVSQTPIAQVESKVPHAKAESALPQTGDTNKLETFFTITALTVIGAAGLLGKKRRNNQTD";
-  <https://schema.org/taxonomicRange> _:t-1668091856467-n4;
+  <https://schema.org/taxonomicRange> _:t-1668259897680-n4;
   <http://www.w3.org/2002/07/owl#sameAs> "http://purl.uniprot.org/uniprot/Q06556" .
 
 <https://idpcentral.org/id/P15516> a <https://schema.org/Protein>;
@@ -2251,5 +1999,5 @@ _:t-1668091856480-n40 a <https://schema.org/PropertyValue>;
   <https://schema.org/identifier> "https://identifiers.org/disprot:DP02206";
   <https://schema.org/sameAs> <https://disprot.org/DP02206>, "http://purl.uniprot.org/uniprot/P15516";
   <https://schema.org/hasBioPolymerSequence> "MKFFVFALILALMLSMTGADSHAKRHHGYKRKFHEKHHSHRGYRSNYLYDN";
-  <https://schema.org/taxonomicRange> _:t-1668091856480-n4;
+  <https://schema.org/taxonomicRange> _:t-1668259897690-n4;
   <http://www.w3.org/2002/07/owl#sameAs> "http://purl.uniprot.org/uniprot/P15516" .
