@@ -140,13 +140,13 @@ The ttl snippet above indicates three main pieces of information:
 	
 Fortunately, this configuration can be constructed from a list of URLs using a SPARQL CONSTRUCT query.
 
-## The pipeline explained
+## The ETL pipeline explained
 
-Figure \ref{fig-pipeline} shows the built pipeline in this work which downloads JSON-LD files scraped from three sources and stored on GitHub, converts them to RDF, map the RDF to a unified model and store the resulting graph to a ttl file. The pipeline also calculates some statistics from the converted RDF and stores it in a CSV file next to the output ttl file. The following sections describe in detail the different stages of the KG construction pipeline.
+Figure \ref{fig-pipeline} shows the pipeline developed in this work which downloads JSON-LD files scraped from three sources and stored on GitHub, converts them to RDF, maps the RDF to a unified model and saves the resulting graph to a ttl file. The pipeline also calculates some statistics from the converted RDF and stores it in a CSV file next to the output ttl file. The following sections describe in detail the different stages of the KG construction pipeline.
 
 ![An overview of the developed pipeline using LinkedPipes \label{fig-pipeline}](./figures/the-pipeline.png)
 
-### The extract stage
+### The "Extract" phase
 
 In this stage of the pipeline, the list of URLs to be downloaded is provided either through a remote file that is downloaded with an HTTP request or from a local text file as shown in Figure \ref{fig-extract}. The node of type "HTTP get" contains a URL to the file containing the list of URLs to download, in this case, names "url.txt". On the other hand, another way of obtaining that file is from the local file system through the node of type "Files from local". The "Files from local" node appears to be greyed out in the figure where it is disabled since we chose to download the file from a GitHub repository instead of loading it from the file system. Hence, allowing the pipeline to be portable and not dependent on the machine running the pipeline. 
 
@@ -179,7 +179,7 @@ CONSTRUCT {
 Now, using the constructed config, the node "HTTP get list" downloads the JSON-LD files that will be used to create the knowledge graph. The user can configure the node to set the number of threads used for download, the number of download retries in case of failure and the wait time between retries (in milliseconds).
 
 
-### The transform stage
+### The "Transform" phase
 
 ![The Transform part of the developed pipeline \label{fig-transform}](./figures/transform.png)
 
@@ -289,7 +289,7 @@ SELECT ?desc ?count WHERE {
 }
 ```
 
-### The load stage
+### The "Load" phase
 
 In this stage, as shown in Figure \ref{fig-load}, the resulting RDF graph is converted to a file and stored in the local file system to a path specified by the configuration of the node of type "Files to local". Similarly, the summary statistics are stored in a CSV file in the local file system. The pipeline can be adapted to utilize the output data more practically by loading it into a live SPARQL endpoint or sending the file over FTP to another location.
 
@@ -304,6 +304,6 @@ The pipeline can be tested using a local running instance of LinkedPipes or usin
 
 ## Conclusion
 
-In this work, an ETL consumption pipeline was developed to construct a knowledge graph from Bioschema JSON-LD feeds. The LinkedPipes suite was explored and assessed as suitable for the purpose of this project. This approach proved that consuming JSON-LD data feeds through an ETL pipeline is a viable solution. Moreover, the ability to automate the execution of the pipeline via a scheduled REST API call (e.g. using a cron job or a Jenkins job) makes it convenient to continuously update the knowledge graph with new data feeds. Finally, the RDF-based nature of LinkedPipes in creating and communicating ETL pipelines largely contributes to the overall FAIRness of this approach and helps to make not only the data FAIR but also the software/pipeline used for the process to be FAIRer too.
+In this work, an ETL consumption pipeline was developed to construct a knowledge graph from Bioschemas JSON-LD feeds. The LinkedPipes suite was explored and assessed as suitable for the purpose of this project. This approach proved that consuming JSON-LD data feeds through an ETL pipeline is a viable solution. Moreover, the ability to automate the execution of the pipeline via a scheduled REST API call (e.g. using a cron job or a Jenkins job) makes it convenient to continuously update the knowledge graph with new data feeds. Finally, the RDF-based nature of LinkedPipes in creating and communicating ETL pipelines largely contributes to the overall FAIRness of this approach and helps to make not only the data FAIR but also the software/pipeline used for the process to be FAIRer too.
 
 ## References
