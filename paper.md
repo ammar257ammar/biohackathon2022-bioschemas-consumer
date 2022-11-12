@@ -127,7 +127,7 @@ Below is an example of the structure of this RDF configuration:
     httpList:reference <http://localhost/resource/ref/1> ;
 
 <http://localhost/resource/ref/1> a httpList:Reference ;
-    httpList:fileUri "https://github.com/BioComputingUP/IDP-KG/jsonld/disprot/DP00186.jsonld" ;
+    httpList:fileUri "https://github.com/IDP-KG/disprot/DP00186.jsonld" ;
     httpList:fileName "DP00186.jsonld" ;
 ```
 
@@ -155,7 +155,7 @@ In this stage of the pipeline, the list of URLs to be downloaded is provided eit
 ```
 <https://example.com/1> 
 	<file://url.txt#column_1> 
-		"https://github.com/BioComputingUP/IDP-KG/jsonld/disprot/DP00176.jsonld" .
+		"https://github.com/BioComputingUP/IDP-KG/disprot/DP00176.jsonld".
 ```
 As described in the runtime configuration section, in order to fetch files from a list of URLs using the node type "HTTP get list", those URLs should be presented as a runtime configuration to that node. Hence, the node of type "SPARQL construct" that is labeled "SPARQL construct create config" is used to create the runtime configuration. A SPARQL construct query is used to map the simple triples from the previous node "Tabular" to the required configuration vocabulary as demonstrated below:
 
