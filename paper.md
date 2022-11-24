@@ -1,6 +1,6 @@
 ---
-title: 'An ETL pipeline to construct IDPcentral Knowledge Graph using Bioschemas JSON-LD data dumps'
-title_short: 'An ETL pipeline to construct IDPcentral Knowledge Graph using Bioschemas JSON-LD data dumps'
+title: 'An ETL pipeline to construct the Intrinsically Disordered Proteins Knowledge Graph (IDP-KG) using Bioschemas JSON-LD data dumps'
+title_short: 'An ETL pipeline to construct the Intrinsically Disordered Proteins Knowledge Graph (IDP-KG) using Bioschemas JSON-LD data dumps'
 tags:
   - pipeline
   - workflow
@@ -67,16 +67,16 @@ The aim of the project is to explore the implementation of the Schema.org propos
 # Results
 -->
 
-## The construction of IDPcentral Knowledge Graph as a use case
+## The construction of IDP-KG as a use case
 
 The example pipeline that we developed in this work is based on a [previous work](https://github.com/BioComputingUP/IDP-KG) developed during the ELIXIR-sponsored BioHackathon-Europe 2020 and reported in BioHackrXiv [@extends:Gray_2021].
-In that work, a method based on RDFLib was developed to generate the IDPcentral Knowledge Graph based on data harvested from three sources: 
+In that work, a method based on RDFLib was developed to generate the IDP-KG based on data harvested from three sources: 
 [DisProt](https://disprot.org/) [@usesDataFrom:Quaglia_2021], [MobiDB](https://mobidb.org/) [@usesDataFrom:Piovesan_2020], and [Protein Ensemble Database](https://proteinensemble.org/) [@usesDataFrom:Lazar_2020].
 
 
 More specifically, we aimed at reproducing [one of the notebooks](https://github.com/BioComputingUP/IDP-KG/blob/main/notebooks/ETLProcess.ipynb) that did the ETL processing in order to create the knowledge graph, but this time in the form of a pipeline consuming data feeds.
 
-The pipeline is supposed to load scraped JSON-LD from the three aforementioned sources, convert it to RDF, apply SPARQL construct queries to map the source RDF to a unified Bioschemas-based model and store the resulting KG as a ttl file.
+The pipeline is supposed to load scraped JSON-LD from the three aforementioned sources, convert it to RDF, apply SPARQL construct queries to map the source RDF to a unified Bioschemas-based model and store the resulting KG as a turtle file.
 
 ## Exploring the LinkedPipes linked data suite
 
